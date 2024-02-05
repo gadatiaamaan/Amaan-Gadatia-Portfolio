@@ -22,7 +22,7 @@ const Wrapper = styled.div`
   width: 100%;
   max-width: 1100px;
   gap: 12px;
-  @media (max-width: 960px) {
+  @media (max-width: 1284px) {
     flex-direction: column;
   }
 `;
@@ -33,7 +33,7 @@ export const Title = styled.div`
   font-weight: 600;
   margin-top: 20px;
   color: ${({ theme }) => theme.text_primary};
-  @media (max-width: 768px) {
+  @media (max-width: 1284px) {
     margin-top: 12px;
     font-size: 32px;
   }
@@ -44,7 +44,7 @@ export const Desc = styled.div`
   text-align: center;
   max-width: 600px;
   color: ${({ theme }) => theme.text_secondary};
-  @media (max-width: 768px) {
+  @media (max-width: 1284px) {
     font-size: 16px;
   }
 `;
@@ -66,11 +66,11 @@ const Skill = styled.div`
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   border-radius: 16px;
   padding: 18px 36px;
-  @media (max-width: 768px) {
+  @media (max-width: 1284px) {
     max-width: 400px;
     padding: 10px 36px;
   }
-  @media (max-width: 500px) {
+  @media (max-width: 1284px) {
     max-width: 330px;
     padding: 10px 36px;
   }
@@ -103,11 +103,11 @@ const SkillItem = styled.div`
   align-items: center;
   justify-content: center;
   gap: 8px;
-  @media (max-width: 768px) {
+  @media (max-width: 1284px) {
     font-size: 14px;
     padding: 8px 12px;
   }
-  @media (max-width: 500px) {
+  @media (max-width: 1284px) {
     font-size: 14px;
     padding: 6px 12px;
   }

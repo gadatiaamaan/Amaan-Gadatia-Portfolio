@@ -23,7 +23,7 @@ export const Wrapper = styled.div`
     max-width: 1350px;
     padding: 10px 0px 100px 0;
     gap: 12px;
-    @media (max-width: 960px) {
+    @media (max-width: 1284px) {
         flex-direction: column;
     }
 `;
@@ -35,7 +35,7 @@ export const Title = styled.div`
     font-weight: 600;
     margin-top: 20px;
     color: ${({ theme }) => theme.text_primary};
-    @media (max-width: 768px) {
+    @media (max-width: 1284px) {
         margin-top: 12px;
         font-size: 32px;
     }
@@ -47,7 +47,7 @@ export const Desc = styled.div`
     text-align: center;
     max-width: 600px;
     color: ${({ theme }) => theme.text_secondary};
-    @media (max-width: 768px) {
+    @media (max-width: 1284px) {
         margin-top: 12px;
         font-size: 16px;
     }
@@ -62,7 +62,7 @@ export const ToggleButtonGroup = styled.div`
     border-radius: 12px;
     font-weight: 500;
     margin: 22px 0px;
-    @media (max-width: 768px) {
+    @media (max-width: 1284px) {
         font-size: 12px;
     }
 `;
@@ -81,7 +81,7 @@ export const ToggleButton = styled.div`
     &:hover {
         background: ${({ theme }) => theme.primary + 8};
     }
-    @media (max-width: 768px) {
+    @media (max-width: 1284px) {
         padding: 6px 8px;
         border-radius: 4px;
     }

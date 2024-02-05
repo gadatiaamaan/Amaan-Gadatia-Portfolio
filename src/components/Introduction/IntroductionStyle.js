@@ -10,11 +10,11 @@ export const IntroductionContainer = styled.div`
   padding: 80px 30px;
 
   // Media queries for responsive design
-  @media (max-width: 960px) {
+  @media (max-width: 1284px) {
     padding: 66px 16px;
   }
 
-  @media (max-width: 640) {
+  @media (max-width: 1284) {
     padding: 32px 16px;
   }
 
@@ -42,7 +42,7 @@ export const IntroductionBg = styled.div`
   transform: translateX(-50%) translateY(-50%);
 
   // Media query for responsive design
-  @media (max-width: 960px) {
+  @media (max-width: 1284px) {
     justify-content: center;
     padding: 0 0px;
   }
@@ -58,7 +58,7 @@ export const IntroductionInnerContainer = styled.div`
   max-width: 1100px;
 
   // Media query for responsive design
-  @media (max-width: 960px) {
+  @media (max-width: 1284px) {
     flex-direction: column;
   }
 `;
@@ -69,7 +69,7 @@ export const IntroductionLeftContainer = styled.div`
   order: 1;
 
   // Media queries for responsive design
-  @media (max-width: 960px) {
+  @media (max-width: 1284px) {
     order: 2;
     margin-bottom: 30px;
     display: flex;
@@ -77,7 +77,7 @@ export const IntroductionLeftContainer = styled.div`
     align-items: center;
   }
 
-  @media (max-width: 640px) {
+  @media (max-width: 1284px) {
     order: 2;
     margin-bottom: 30px;
     display: flex;
@@ -95,14 +95,14 @@ export const IntroductionRightContainer = styled.div`
   gap: 12px;
 
   // Media queries for responsive design
-  @media (max-width: 960px) {
+  @media (max-width: 1284px) {
     order: 1;
     justify-content: center;
     align-items: center;
     margin-bottom: 80px;
   }
 
-  @media (max-width: 640px) {
+  @media (max-width: 1284px) {
     margin-bottom: 30px;
   }
 `;
@@ -118,12 +118,12 @@ export const Img = styled.img`
   border: 2px solid ${({ theme }) => theme.primary};
 
   // Media queries for responsive design
-  @media (max-width: 768px) {
+  @media (max-width: 1284px) {
     max-width: 400px;
     max-height: 400px;
   }
 
-  @media (max-width: 640px) {
+  @media (max-width: 1284px) {
     max-width: 280px;
     max-height: 280px;
   }
@@ -137,11 +137,11 @@ export const Title = styled.div`
   line-height: 68px;
 
   // Media queries for responsive design
-  @media (max-width: 960px) {
+  @media (max-width: 1284px) {
     text-align: center;
   }
 
-  @media (max-width: 640px) {
+  @media (max-width: 1284px) {
     font-size: 40px;
     line-height: 48px;
     margin-bottom: 8px;
@@ -158,11 +158,11 @@ export const TextLoop = styled.div`
   line-height: 68px;
 
   // Media queries for responsive design
-  @media (max-width: 960px) {
+  @media (max-width: 1284px) {
     text-align: center;
   }
 
-  @media (max-width: 640px) {
+  @media (max-width: 1284px) {
     font-size: 22px;
     line-height: 48px;
     margin-bottom: 16px;
@@ -183,11 +183,11 @@ export const SubTitle = styled.div`
   color: ${({ theme }) => theme.text_primary + 95};
 
   // Media queries for responsive design
-  @media (max-width: 960px) {
+  @media (max-width: 1284px) {
     text-align: center;
   }
 
-  @media (max-width: 640px) {
+  @media (max-width: 1284px) {
     font-size: 16px;
     line-height: 32px;
   }
@@ -225,7 +225,7 @@ export const ResumeButton = styled.a`
     }
 
     // Media query for responsive design
-    @media (max-width: 640px) {
+    @media (max-width: 1284px) {
         padding: 12px 0;
         font-size: 18px;
     } 

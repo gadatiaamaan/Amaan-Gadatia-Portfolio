@@ -18,7 +18,7 @@ const Container = styled.div`
     z-index: 1;
     align-items: center;
     padding: 0px 0px 60px 0px;
-    @media (max-width: 960px) {
+    @media (max-width: 1284px) {
         padding: 0px;
     }
 `;
@@ -33,7 +33,7 @@ const Wrapper = styled.div`
     max-width: 1350px;
     padding: 40px 0px 0px 0px;
     gap: 12px;
-    @media (max-width: 960px) {
+    @media (max-width: 1284px) {
         flex-direction: column;
     }
 `;
@@ -44,7 +44,7 @@ const Title = styled.div`
     font-weight: 600;
     margin-top: 20px;
     color: ${({ theme }) => theme.text_primary};
-    @media (max-width: 768px) {
+    @media (max-width: 1284px) {
         margin-top: 12px;
         font-size: 32px;
     }
@@ -55,7 +55,7 @@ const Desc = styled.div`
     text-align: center;
     max-width: 600px;
     color: ${({ theme }) => theme.text_secondary};
-    @media (max-width: 768px) {
+    @media (max-width: 1284px) {
         margin-top: 12px;
         font-size: 16px;
     }
@@ -70,7 +70,7 @@ const TimelineSection = styled.div`
     align-items: center;
     justify-content: center;
     gap: 12px;
-    @media (max-width: 660px) {
+    @media (max-width: 1284px) {
         align-items: end;
     }
 `;
