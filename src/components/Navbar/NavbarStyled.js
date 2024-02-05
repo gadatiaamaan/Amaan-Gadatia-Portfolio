@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 // Styling for the main navigation container
 export const Nav = styled.div`
-    background-color: ${({theme}) => theme.card};
+    background-color: ${({theme}) => theme.card_light};
     height: 80px;
     display: flex;
     align-items: center;
@@ -45,23 +45,23 @@ export const NavLogo = styled(LinkR)`
 
 // Styling for a custom span element in the navbar
 export const Span = styled.div`
-    padding: 0 4px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 17px;
+    white-space: nowrap;
 `;
 
 // Styling for the list of navigation items
 export const NavItems = styled.ul`
-    width: 115%;
+    width: 100%;
     display: flex;
     flex-flow: row;
     align-items: center;
     justify-content:center;
     gap: 2rem;
-    padding: 0 6px;
+    padding: 0 0px;
     list-style: none;
     font-size: 17px;
-    min-width: 800px;
+    min-width: 750px;
     @media screen and (max-width: 800px) {
       display: none;
     }
@@ -69,18 +69,21 @@ export const NavItems = styled.ul`
 
 // Styling for individual navigation links
 export const NavLink = styled.a`
-    color: ${({ theme }) => theme.text_primary};
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    text-decoration: none;
-    :hover {
-      color: ${({ theme }) => theme.primary};
-    }
+  color: ${({ theme }) => theme.text_primary};
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  :hover {
+    color: ${({ theme }) => theme.primary};
+  }
 
-    &.active {
-      border-bottom: 2px solid ${({ theme }) => theme.primary};
-    }
+  &.active {
+    border-bottom: 2px solid ${({ theme }) => theme.primary};
+  }
+  @media screen and (max-width: 1284px) {
+    display: none;
+  }
 `;
 
 // Styling for the LinkedIn button
@@ -102,7 +105,7 @@ export const LinkedInButton = styled.a`
       background: ${({ theme }) => theme.primary};
       color: ${({ theme }) => theme.text_primary};     
     }
-    @media screen and (max-width: 768px) { 
+    @media screen and (max-width: 1284px) { 
     font-size: 14px;
     }
 `;
@@ -127,7 +130,7 @@ export const DarkModeButton = styled.div`
     background: ${({ theme }) => theme.primary};
     color: ${({ theme }) => theme.white};     
   }
-  @media screen and (max-width: 768px) { 
+  @media screen and (max-width: 1284px) { 
     display: none;
   }
 `;
@@ -140,7 +143,7 @@ export const ButtonContainer = styled.div`
   justify-content: end;
   align-items: center;
   padding: 0 6px;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1284px) {
     display: none;
   }
 `;
@@ -148,7 +151,7 @@ export const ButtonContainer = styled.div`
 // Styling for the mobile menu icon
 export const MobileIcon = styled.div`
   display: none;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1284px) {
     display: block;
     position: absolute;
     top: 0;
@@ -276,7 +279,7 @@ export const Toggle = styled.button`
     background: ${({ theme }) => theme.primary};
     color: ${({ theme }) => theme.text_primary};   
   }
-  @media screen and (max-width: 768px) { 
+  @media screen and (max-width: 1284px) { 
   font-size: 14px;
   } 
 `;
@@ -285,7 +288,7 @@ export const StyledLink = styled(LinkR)`
   display: flex;
   align-items: center;
   color: ${({ theme }) => theme.text_primary};
-  margin-bottom: 20px; /* Remove the quotes around the value */
+  margin-bottom: 10px; /* Remove the quotes around the value */
   cursor: pointer;
   text-decoration: none;
   :hover {
