@@ -38,6 +38,10 @@ export const lightTheme = {
   card: "#FFFFFF",
   // Button color
   button: "#5c5b5b",
+  // White color
+  white: "#FFFFFF",
+  // Black color
+  black: "#000000",
 };
 
 export const themes = {
