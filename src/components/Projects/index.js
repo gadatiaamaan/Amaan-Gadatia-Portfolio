@@ -29,21 +29,21 @@ const Projects = ({ openModal, setOpenModal }) => {
           <Divider />
           {toggle === 'Category 1' ? (
             <ToggleButton active value="Category 1" onClick={() => setToggle('Category 1')}>
-              Category 1'S
+              Category 1
             </ToggleButton>
           ) : (
             <ToggleButton value="Category 1" onClick={() => setToggle('Category 1')}>
-              Category 1'S
+              Category 1
             </ToggleButton>
           )}
           <Divider />
           {toggle === 'Category 2' ? (
             <ToggleButton active value="Category 2" onClick={() => setToggle('Category 2')}>
-              Category 2'S
+              Category 2
             </ToggleButton>
           ) : (
             <ToggleButton value="Category 2" onClick={() => setToggle('Category 2')}>
-              Category 2'S
+              Category 2
             </ToggleButton>
           )}
           <Divider />

@@ -33,7 +33,7 @@ const Introduction = () => {
                         {/* Displaying the description from Bio data */}
                         <SubTitle>{Bio.description}</SubTitle>
                         {/* Creating a button to view the resume with a link from Bio data */}
-                        <ResumeButton href={Bio.resume} target='display'>View My Resume</ResumeButton>
+                        <ResumeButton href={Bio.resume} target='display'>  View My Resume  </ResumeButton>
                     </IntroductionLeftContainer>
                     <IntroductionRightContainer id="Right">
                         {/* Displaying the introduction image */}
