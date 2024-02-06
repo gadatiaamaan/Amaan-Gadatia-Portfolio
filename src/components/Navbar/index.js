@@ -76,7 +76,7 @@ function Navbar(props) {
             <MobileLink href='#experience' onClick={() => setIsOpen(!isOpen)}>Experience</MobileLink>
             <MobileLink href='#projects' onClick={() => setIsOpen(!isOpen)}>Projects</MobileLink>
             <MobileLink href='#education' onClick={() => setIsOpen(!isOpen)}>Education</MobileLink>
-            <MobileLink href='#contact' onClick={() => setIsOpen(!isOpen)}>Contact Me</MobileLink>
+            <MobileLink href='#contactme' onClick={() => setIsOpen(!isOpen)}>Contact Me</MobileLink>
             
             {/* Light/Dark Mode button for mobile */}
             <Toggle onClick={changeTheme}>

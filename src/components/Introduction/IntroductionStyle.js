@@ -188,41 +188,58 @@ export const SubTitle = styled.div`
   }
 
   @media (max-width: 1284px) {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 32px;
   }
 `;
 
 // Styled component for the resume button in the introduction section
-export const ResumeButton = styled.a`
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-    text-decoration: none;
-    width: 95%;
-    max-width: 300px;
-    text-align: center;
-    padding: 16px 10px;
-    color: ${({ theme }) => theme.text_primary};
-        border-radius: 20px;
-    cursor: pointer;
+export const MenuButton = styled.a`
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  width: 225px;
+  text-align: center;
+  padding: 16px 10px;
+  color: ${({ theme }) => theme.text_primary};
+  border-radius: 20px;
+  box-margin: 16px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out !important;
+  background: ${({ theme }) => theme.primary};
+  box-shadow: 5px 5px 40px #4B0082;
+
+  // Hover effect for the button
+  &:hover {
+    transform: scale(1.05);
+    transition: all 0.4s ease-in-out;
+    box-shadow: 20px 20px 60px #1F2634;
+    filter: brightness(1);
+  }
+
+  // Media query for responsive design
+  @media (max-width: 1284px) {
+    padding: 12px 0;
+    min-width: 300px;
+    height: 50px;
+    width: 100%;
+    top margin: 16px;
     font-size: 18px;
-    font-weight: 600;
-    transition: all 0.2s ease-in-out !important;
-    background: ${({ theme }) => theme.primary};
-    box-shadow: 5px 5px 40px #4B0082;
+  }
+`;
 
-    // Hover effect for the button
-    &:hover {
-        transform: scale(1.05);
-        transition: all 0.4s ease-in-out;
-        box-shadow:  20px 20px 60px #1F2634,
-        filter: brightness(1);
-    }
+export const MenuButtonContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
 
-    // Media query for responsive design
-    @media (max-width: 1284px) {
-        padding: 12px 0;
-        font-size: 18px;
-    } 
+  @media (max-width: 1284px) {
+    flex-direction: column;
+    max-width: 300px;
+    align-items: center;
+  }
 `;

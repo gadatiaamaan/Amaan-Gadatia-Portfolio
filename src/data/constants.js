@@ -8,7 +8,7 @@ export const Bio = {
     "Software Engineer",
   ],
   description:
-    "As an aspiring Software Engineer, I am a motivated and adaptable individual, constantly seeking opportunities to tackle new challenges. Fueled by a passion for continuous learning, I am committed to delivering top-notch results in the dynamic field of technology. With a positive attitude and a growth mindset, I am poised to make a significant impact and strive for excellence in every project. Ready to embrace innovation and contribute meaningfully to the world of Software Engineering, I am excited about the journey ahead.",
+    "As an aspiring Software Engineer, I am a motivated and adaptable individual, always on the lookout for opportunities to tackle new challenges. Fueled by a passion for continuous learning, I am committed to delivering top-notch results in the dynamic field of technology. I am actively seeking entry-level job opportunities in my field, and with a positive attitude and a growth mindset, I am poised to make a significant impact and strive for excellence in every project. Ready to embrace innovation and contribute meaningfully to the world of Software Engineering, I am excited about the journey ahead!",
   github: "https://github.com/gadatiaamaan",
   resume:
     "https://drive.google.com/file/d/1fAptngMQvilUuIRpsIg48uG0k2wAKAtw/view?usp=drive_link",

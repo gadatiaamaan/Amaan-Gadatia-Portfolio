@@ -1,6 +1,6 @@
 import React from 'react'
 import IntroductionBgAnimation from '../IntroductionBgAnimation'
-import { IntroductionContainer, IntroductionBg, IntroductionLeftContainer, Img, IntroductionRightContainer, IntroductionInnerContainer, TextLoop, Title, Span, SubTitle, ResumeButton } from './IntroductionStyle'
+import { IntroductionContainer, IntroductionBg, IntroductionLeftContainer, Img, IntroductionRightContainer, IntroductionInnerContainer, TextLoop, Title, Span, SubTitle, MenuButton, MenuButtonContainer } from './IntroductionStyle'
 import IntroductionImg from '../../images/profile.jpg'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
@@ -32,8 +32,13 @@ const Introduction = () => {
                         </TextLoop>
                         {/* Displaying the description from Bio data */}
                         <SubTitle>{Bio.description}</SubTitle>
-                        {/* Creating a button to view the resume with a link from Bio data */}
-                        <ResumeButton href={Bio.resume} target='display'>  View My Resume  </ResumeButton>
+                            
+                        <MenuButtonContainer>
+                            {/* Creating a button to view the resume */}
+                            <MenuButton href={Bio.resume} target='display'>  View My Resume  </MenuButton>
+                            {/* Creating a button to contact with a link to the contact section */}                                    
+                            <MenuButton href='#contactme'>Contact Me Today!</MenuButton>
+                        </MenuButtonContainer>
                     </IntroductionLeftContainer>
                     <IntroductionRightContainer id="Right">
                         {/* Displaying the introduction image */}

@@ -69,9 +69,10 @@ const ContactForm = styled.form`
 `;
 
 const ContactTitle = styled.div`
-  font-size: 24px;
+  font-size: 22px;
   margin-bottom: 6px;
   font-weight: 600;
+  text-align: center;
   color: ${({ theme }) => theme.text_primary};
 `;
 
@@ -167,15 +168,15 @@ const Contact = () => {
       <Wrapper>
         <Title>Contact Me</Title>
         <Desc>
-          Feel free to contact me with any inquiries or potential opportunities!
+          Feel free to contact me with any inquiries or potential opportunities and I will get back to you as soon as possible!
         </Desc>
         <ContactForm ref={form} onSubmit={sendEmail}>
-          <ContactTitle>Email Me 🚀</ContactTitle>
+          <ContactTitle>Email Me Today! 🚀</ContactTitle>
           <ContactInput placeholder="Subject" name="subject" required /> 
           <ContactInput placeholder="Name" name="user_name" required />
           <ContactInput placeholder="Email" name="user_email" type="email" required />
           <ContactInput placeholder="Phone Number" name="user_number" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" required />
+          <ContactInputMessage placeholder="Message" rows="6" name="message" required />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
         <Snackbar
