@@ -11,7 +11,7 @@ export const Bio = {
     "As an aspiring Software Engineer, I am a motivated and adaptable individual, always on the lookout for opportunities to tackle new challenges. Fueled by a passion for continuous learning, I am committed to delivering top-notch results in the dynamic field of technology. I am actively seeking entry-level job opportunities in my field, and with a positive attitude and a growth mindset, I am poised to make a significant impact and strive for excellence in every project. Ready to embrace innovation and contribute meaningfully to the world of Software Engineering, I am excited about the journey ahead!",
   github: "https://github.com/gadatiaamaan",
   resume:
-    "https://drive.google.com/file/d/1fAptngMQvilUuIRpsIg48uG0k2wAKAtw/view?usp=drive_link",
+    "https://drive.google.com/file/d/1ERkdSVJOClK0Y1NOaalBceyk_qGb8_Wy/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/amaangadatia/",
 };
   
@@ -54,11 +54,6 @@ export const skills = [
         name: "R",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg",
-      },
-      {
-        name: "React",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
       },
       {
         name: "SQL",
@@ -240,6 +235,11 @@ export const skills = [
         name: "Postman",
         image:
           "https://www.svgrepo.com/show/354202/postman-icon.svg",
+      },
+      {
+        name: "React",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
       },
       {
         name: "Redux",
