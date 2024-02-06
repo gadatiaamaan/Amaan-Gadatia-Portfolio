@@ -1,16 +1,17 @@
 ### Amaan Gadatia's Portfolio
 
-Welcome to my online portfolio, showcasing my work, skills, and achievements in the field of software engineering.
+Welcome to my online portfolio, showcasing my work, skills, education, and achievements in the field of software engineering.
 
 ---
 
 #### Introduction
 
-My portfolio is a React.js application designed to provide an overview of my background, display my projects, and offer a way to contact me. It reflects my commitment to excellence and continuous growth in the dynamic world of technology.
+My portfolio is a React.js application designed to provide a comprehensive overview of my background, including my education, skills, projects, and contact information. It serves as a testament to my dedication to excellence and continuous growth in the dynamic world of technology.
 
 #### Features
 
 - **About Me**: An overview of my background, skills, and experiences.
+- **Education**: Details about my educational journey and academic achievements.
 - **Projects**: A collection of my notable projects with descriptions, screenshots, and links.
 - **Skills**: A comprehensive list of my technical skills and proficiencies.
 - **Resume**: A convenient link to download my resume.
@@ -37,6 +38,7 @@ To run this portfolio locally, follow these steps:
 
 #### Usage
 
-After installing and running the project locally, you can navigate through the different sections of the portfolio using the navigation menu. Explore the **About Me** section to learn more about my background and skills. Visit the **Projects** section to see detailed information about my projects, including descriptions and screenshots. Use the **Contact** section to send me a message or inquiry.
+After installing and running the project locally, you can navigate through the different sections of the portfolio using the navigation menu. Explore the **About Me** section to learn more about my background and skills. Discover my **Education** section to delve into my educational journey and academic achievements. Visit the **Projects** section to see detailed information about my projects, including descriptions and screenshots. Use the **Contact** section to send me a message or inquiry.
 
 ---
+
