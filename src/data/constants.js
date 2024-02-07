@@ -207,6 +207,11 @@ export const skills = [
           "https://cdn.worldvectorlogo.com/logos/jwt-3.svg",
       },
       {
+        name: "jQuery",
+        image:
+          "https://cdn.worldvectorlogo.com/logos/jquery-4.svg",
+      },
+      {
         name: "Maven",
         image:
           "https://editorconfig.org/logos/maven.png",
@@ -282,6 +287,11 @@ export const skills = [
           "",
       },
       {
+        name: "Object-Oriented Programming (OOP)",
+        image:
+          "",
+      },
+      {
         name: "Software Design Patterns",
         image:
           "",
@@ -293,6 +303,11 @@ export const skills = [
       },
       {
         name: "Technical Documentation",
+        image:
+          "",
+      },
+      {
+        name: "Vim",
         image:
           "",
       },
