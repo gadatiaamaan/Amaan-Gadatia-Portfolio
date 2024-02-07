@@ -307,12 +307,12 @@ export const skills = [
           "",
       },
       {
-        name: "Vim",
+        name: "UI/UX Design",
         image:
           "",
       },
       {
-        name: "UI/UX Design",
+        name: "Vim",
         image:
           "",
       },
