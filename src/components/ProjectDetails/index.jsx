@@ -66,6 +66,8 @@ const Desc = styled.div`
 
 const Image = styled.img`
   width: 100%;
+  height: 100%; /* Remove fixed height */
+  max-height: 400px; /* Set maximum height */
   object-fit: cover;
   border-radius: 12px;
   margin-top: 30px;
@@ -157,13 +159,21 @@ const index = ({ openModal, setOpenModal }) => {
             ))}
           </Tags>
           <Desc>{project?.description}</Desc>
-          <ButtonGroup>
-            <Button dull href={project?.github} target='new'>
-              View Code
-            </Button>
-            <Button href={project?.webapp} target='new'>
-              View Live App
-            </Button>
+          <ButtonGroup style={{ justifyContent: 'center', marginTop: '20px' }}>
+            {project?.github ? (
+              <Button dull href={project.github} target='new'>
+                View Code
+              </Button>
+            ) : (
+              <div style={{ textAlign: 'center' }}>
+                <Desc>*Due to company regulations, the source code for this project is not publicly available.*</Desc>
+              </div>
+            )}
+            {project?.webapp && (
+              <Button href={project?.webapp} target='new'>
+                View Live Application
+              </Button>
+            )}
           </ButtonGroup>
         </Wrapper>
       </Container>

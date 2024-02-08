@@ -1,3 +1,5 @@
+import porfolioIMG from "../images/portfolio.png";
+
 // Bio information for the personal portfolio website
 export const Bio = {
   name: "Amaan Gadatia",
@@ -427,50 +429,165 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Project 1",
-    date: "Date",
+    title: "Personal Portfolio Website",
+    date: "2024",
     description:
-      "Description",
+      "Created an online portfolio showcasing my journey, skills, and achievements in software engineering. Explore sections such as About Me, Education, Projects, Skills, Resume, and Contact. Behind the scenes, I used React.js for dynamic UI, HTML5 & CSS3 for styling, JavaScript for interactivity, Styled-Components for responsive design, Git for version control, and GitHub Pages for hosting.",
     image:
-      "",
+      porfolioIMG,
     tags: [
-      "Skills",
-
+      "React.js",
+      "Styled Components",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Netlify",
+      "Responsive Design",
+      "GitHub",
+      "Git",
+      "Netlify",
+      "Front-End Development",
+      "Web Design",
     ],
-    category: "Category 1",
-    github: "",
-    webapp: "",
+    category: "Front-End Development",
+    github: "https://github.com/gadatiaamaan/Amaan-Gadatia-Portfolio.git",
+    webapp: "https://amaangadatiaportfolio.netlify.app",
   },
   {
     id: 1,
-    title: "Project 2",
-    date: "Date",
+    title: "Low-Code No-Code Platform",
+    date: "2023",
     description:
-      "Description",
+      "This project involved leading a collaborative effort to develop a Low-Code No-Code Platform at Infosys, aimed at simplifying web page creation for businesses. The technology stack included ReactJS for intuitive front-end design, Java Spring Boot for building a robust back-end infrastructure, and MySQL for optimized database management. The project revolutionized web page development by empowering businesses to create captivating web pages without the complexities of coding, fostering adaptable skills and problem-solving in a multidisciplinary environment.",
     image:
-      "",
+      "https://www.zestminds.com/blog/wp-content/uploads/2022/02/Budibase-app-builder.jpg",
     tags: [
-      "Skills",
-
+      "React.js",
+      "Java Spring Boot",
+      "JSON Web Token (JWT) Authentication",
+      "Spring Security",
+      "MySQL",
+      "Full-Stack Development",
+      "API",
     ],
-    category: "Category 2",
+    category: "Full-Stack Development",
     github: "",
     webapp: "",
   },
   {
     id: 2,
-    title: "Project 3",
-    date: "Date",
+    title: "Real-Time Chat Application",
+    date: "2023",
     description:
-      "Description",
+      "This real-time communication application employs a server-client model, allowing users to join chatrooms, exchange messages, and seamlessly resume conversations. Developed using Python, it utilizes socket programming for network communication, Tkinter for client GUI, and threading for concurrent connections on the server. Key features include message broadcasting, username assignment, and chat log persistence, ensuring an intuitive and efficient chatting experience for individuals and groups.",
     image:
-      "",
+      "https://www.boardinfinity.com/blog/content/images/2023/04/Copy-of-Maximal-FLow.png",
     tags: [
-      "Skills",
-
+      "Python",
+      "Socket Programming",
+      "Tkinter",
+      "Threading",
+      "Real-Time Communication",
+      "Network Communication",
+      "Algorithm Design",
+      "Full-Stack Development",
     ],
-    category: "Category 3",
-    github: "",
+    category: "Full-Stack Development",
+    github: "https://github.com/gadatiaamaan/Real-Time-Chat-Application.git",
     webapp: "",
   },
+  {
+    id: 3,
+    title: "Expression-Based Evaluator",
+    date: "2023",
+    description:
+      "The Expression Evaluator Program in C++ converts infix expressions to postfix notation and evaluates them efficiently. Utilizing the Stack data structure via the Array class, it handles various operators and integers. Key design patterns include the Command Pattern for evaluating postfix expressions and the Abstract Factory Pattern for dynamic command creation. Employing the shunting-yard algorithm, it ensures proper expression conversion. Object-oriented design principles enhance modularity and maintainability, offering a robust solution for mathematical expression evaluation.",
+    image:
+      "https://assets.materialup.com/uploads/32e0a889-e557-4a3f-b481-976de40f91bf/calculatorappdesign.png",
+    tags: [
+      "C++",
+      "Data Structures",
+      "Algorithm Design",
+      "Shunting-Yard Algorithm",
+      "Software Design",
+      "Command Pattern",
+      "Abstract Factory Pattern",
+      "Object-Oriented Design",
+    ],
+    category: "Back-End Development",
+    github: "https://github.com/gadatiaamaan/Expression-Based-Evaluator.git"
+  },
+  {
+    id: 4,
+    title: "Bank ATM System",
+    date: "2023",
+    description:
+      "The Bank ATM System, a Java-based application, emulates the functionality of a real Automated Teller Machine (ATM) system. Administrators can securely log in to manage accounts, including adding or removing users, listing all accounts, and applying interest to savings. For users, the system provides a secure login for checking account balances and conducting transactions seamlessly. Its comprehensive features ensure efficient account management and banking operations while prioritizing security and user experience.",
+    image:
+      "https://cdn.vectorstock.com/i/preview-1x/11/14/atm-bank-scene-with-people-cartoon-character-vector-42181114.jpg",
+    tags: [
+      "Java",
+      "Object-Oriented Programming (OOP)",
+      "Serizalization",
+      "Hashing",
+    ],
+    category: "Back-End Development",
+    github: "https://github.com/gadatiaamaan/Bank-ATM.git",
+    webapp: "",
+  },
+  {
+    id: 5,
+    title: "Spell Checker and Word Suggestion Program",
+    date: "2022",
+    description:
+      "The Simple Spell Checker and Word Suggestion Program, developed primarily in C++, employs hash tables for efficient word storage and retrieval. Leveraging GNU Make for project management, it utilizes hashing algorithms for quick comparisons, enabling accurate spell checking and word suggestion. Through C++ standard streams and file handling, it efficiently handles input/output operations. This technologically advanced tool offers streamlined execution time measurement and robust functionality, enhancing text processing capabilities.",
+    image:
+      "https://img.freepik.com/free-vector/dictionary-concept-illustration_114360-7609.jpg",
+    tags: [
+      "C++",
+      "Data Structures",
+      "Algorithm Design",
+      "Hashing",
+      "Input/Output Handling",
+    ],
+    category: "Back-End Development",
+    github: "https://github.com/gadatiaamaan/Dictionary-Spelling-Checker.git",
+    webapp: "",
+  },
+  {
+    id: 6,
+    title: "Matrix Calculator",
+    date: "2022",
+    description:
+      "The Matrix Calculator, programmed in C++, facilitates addition, subtraction, and multiplication operations on matrices. It utilizes dynamic memory allocation for efficient storage, operator overloading for simplified syntax, and object-oriented principles for maintainability. Validation ensures compatibility, while debugging techniques like Valgrind ensure reliability.",
+    image:
+      "https://content.mycutegraphics.com/graphics/school/calculator.png",
+    tags: [
+      "C++",
+      "Object-Oriented Programming (OOP)",
+      "Dynamic Memory Allocation",
+      "Operator Overloading",
+    ],
+    category: "Back-End Development",
+    github: "https://github.com/gadatiaamaan/Matrix-Calculator.git",
+    webapp: "",
+  },
+  {
+    id: 7,
+    title: "N-Queens Problem Solver",
+    date: "2021",
+    description:
+      "The N-Queens Problem Solver is a C++ program that tackles the challenge of placing a specified number of queens onto an N x N chessboard, ensuring none of them threaten each other. Employing a stack-based approach, it utilizes backtracking to explore and validate potential configurations. Stacks are leveraged to manage queen placements efficiently, while a vector assists in detecting conflicts. The program employs conditional statements to validate placements and handle edge cases, ensuring a robust solution to this classic computational problem.",
+    image:
+      "https://4.bp.blogspot.com/_jTDke8V3uGE/TTFmMFOMttI/AAAAAAAACSI/_38ZIIHNZXg/s400/queens1.gif",
+    tags: [
+      "C++",
+      "Data Structures",
+      "Backtracking",
+      "Stack-Based Approach",
+    ],
+    category: "Back-End Development",
+    github: "https://github.com/gadatiaamaan/N-Queens.git",
+    webapp: "",
+  }
 ];

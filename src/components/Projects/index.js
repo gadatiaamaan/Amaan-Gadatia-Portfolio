@@ -13,7 +13,7 @@ const Projects = ({ openModal, setOpenModal }) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          Project description goes here. Project description goes here. Project description goes here.
+        Check out my various development projects, spanning from front-end, to back-end, to full-stack solutions! Each project showcases offers a glimpse into my passion for technology.
         </Desc>
         {/* Toggle buttons for project categories */}
         <ToggleButtonGroup>
@@ -27,33 +27,33 @@ const Projects = ({ openModal, setOpenModal }) => {
             </ToggleButton>
           )}
           <Divider />
-          {toggle === 'Category 1' ? (
-            <ToggleButton active value="Category 1" onClick={() => setToggle('Category 1')}>
-              Category 1
+          {toggle === 'Web-Development' ? (
+            <ToggleButton active value="Front-End Development" onClick={() => setToggle('Front-End Development')}>
+              Front-End Development
             </ToggleButton>
           ) : (
-            <ToggleButton value="Category 1" onClick={() => setToggle('Category 1')}>
-              Category 1
+            <ToggleButton value="Front-End Development" onClick={() => setToggle('Front-End Development')}>
+              Front-End Development
             </ToggleButton>
           )}
           <Divider />
-          {toggle === 'Category 2' ? (
-            <ToggleButton active value="Category 2" onClick={() => setToggle('Category 2')}>
-              Category 2
+          {toggle === 'Back-End Development' ? (
+            <ToggleButton active value="Back-End Development" onClick={() => setToggle('Back-End Development')}>
+              Back-End Development
             </ToggleButton>
           ) : (
-            <ToggleButton value="Category 2" onClick={() => setToggle('Category 2')}>
-              Category 2
+            <ToggleButton value="Back-End Development" onClick={() => setToggle('Back-End Development')}>
+              Back-End Development
             </ToggleButton>
           )}
           <Divider />
-          {toggle === 'Category 3' ? (
-            <ToggleButton active value="Category 3" onClick={() => setToggle('Category 3')}>
-              Category 3
+          {toggle === 'Full-Stack Development' ? (
+            <ToggleButton active value="Full-Stack Development" onClick={() => setToggle('Full-Stack Development')}>
+              Full-Stack Development
             </ToggleButton>
           ) : (
-            <ToggleButton value="Category 3" onClick={() => setToggle('Category 3')}>
-              Category 3
+            <ToggleButton value="Full-Stack Development" onClick={() => setToggle('Full-Stack Development')}>
+              Full-Stack Development
             </ToggleButton>
           )}
         </ToggleButtonGroup>
