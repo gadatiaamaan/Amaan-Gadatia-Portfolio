@@ -95,6 +95,11 @@ export const skills = [
           "https://styles.redditmedia.com/t5_2qm6k/styles/communityIcon_dhjr6guc03x51.png",
       },
       {
+        name: "MongoDB",
+        image:
+          "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/246656344_10165689418720557_4225476852778908330_n.png?_nc_cat=1&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=IB7ZsgtaXgkAX8cciQv&_nc_ht=scontent-ord5-2.xx&oh=00_AfC6zldGLP1zQ8UwgEdj08T8BwvtKdrD2Ler61J9fiICpw&oe=65CC2D5D",
+      },
+      {
         name: "SQL Server",
         image:
           "https://www.dancingnumbers.com/wp-content/uploads/2023/12/microsoft-sql-server-logo.png",
@@ -179,9 +184,19 @@ export const skills = [
     title: "Misc Technical Tools, Libraries, and Concepts",
     skills: [
       {
+        name: "API",
+        image:
+          "https://www.shutterstock.com/image-vector/eps10-black-vector-cogwheel-api-600nw-2217260043.jpg",
+      },
+      {
         name: "Bootstrap",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg",
+      },
+      {
+        name: "Express.js",
+        image:
+          "https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png",
       },
       {
         name: "Figma",
@@ -267,6 +282,11 @@ export const skills = [
         name:"Styled Components",
         image:
           "https://miro.medium.com/v2/resize:fit:480/1*Iohnw2aOQ5EBghVoqKA7VA.png",
+      },
+      {
+        name: "Tailwind CSS",
+        image:
+          "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
       },
       {
         name: "XAMPP",
