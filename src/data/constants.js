@@ -13,7 +13,7 @@ export const Bio = {
     "As an aspiring Software Engineer, I am a motivated and adaptable individual, always on the lookout for opportunities to tackle new challenges. Fueled by a passion for continuous learning, I am committed to delivering top-notch results in the dynamic field of technology. I am actively seeking entry-level job opportunities in my field, and with a positive attitude and a growth mindset, I am poised to make a significant impact and strive for excellence in every project. Ready to embrace innovation and contribute meaningfully to the world of Software Engineering, I am excited about the journey ahead!",
   github: "https://github.com/gadatiaamaan",
   resume:
-    "https://drive.google.com/file/d/1ERkdSVJOClK0Y1NOaalBceyk_qGb8_Wy/view?usp=drive_link",
+    "https://drive.google.com/file/d/1hKxTOVLKqtKBdgDyVF3XiYfTilbj_hfZ/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/amaangadatia/",
 };
   
@@ -346,6 +346,31 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "",
+    role: "Junior Software Engineer",
+    company: "EasyTech Software Solutions",
+    date: "Sept 2023 - Feb 2024",
+    desc: "Demonstrating expertise in React.js, JavaScript, HTML, CSS, Java, SQL, and Git, I have meticulously crafted clean, efficient, and maintainable codebases. Collaborating seamlessly with senior software engineers and cross-functional teams, I've helped architect and deliver top-tier software solutions, leveraging industry best practices. In advancing both front-end and back-end development efforts, I've integrated APIs and web services to facilitate seamless system interoperability. Moreover, I've championed process efficiency, organizational excellence, regulatory compliance, and system optimization, thereby elevating operational effectiveness. Through comprehensive testing and debugging protocols, I've ensured peak functionality and performance, fortifying quality assurance standards and enhancing user satisfaction.",
+    skills: [
+      "React.js",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Java",
+      "SQL",
+      "Git",
+      "API",
+      "Web Services",
+      "Front-End Development",
+      "Back-End Development",
+      "Software Testing",
+      "Debugging",
+      "Quality Assurance",
+    ],
+    doc: "",
+  },
+  {
+    id: 1,
     img: "https://static.vecteezy.com/system/resources/previews/020/336/451/non_2x/infosys-logo-infosys-icon-free-free-vector.jpg",
     role: "Full-Stack Developer Intern",
     company: "Infosys Limited",
@@ -379,7 +404,7 @@ export const experiences = [
     doc: "",
   },
   {
-    id: 1,
+    id: 2,
     img: "https://i.pinimg.com/736x/e6/0a/07/e60a07442ff285a78a3b95c018967d9b.jpg",
     role: "Information Technology Support Specialist",
     company: "Indiana University - University Information Technology Services",
@@ -402,7 +427,7 @@ export const experiences = [
     doc: "",
   },
   {
-    id: 2,
+    id: 3,
     img: "https://pbs.twimg.com/profile_images/1542612027142717442/q2BxTXTj_400x400.png",
     role: "Contracting Department Co-Op Intern",
     company: "Eli Lilly and Company",
