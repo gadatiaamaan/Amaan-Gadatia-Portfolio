@@ -452,6 +452,15 @@ export const experiences = [
 export const education = [
   {
     id: 0,
+    img:   "https://images.squarespace-cdn.com/content/v1/530175eae4b02368396cb720/1641424247213-14OM17ZJHUKL1DD6ESN0/gt_logo-02.png",
+    school: "Georgia Institute of Technology",
+    date: "Aug 2024 - May 2026",
+    grade: "4.0 CGPA",
+    desc: "",
+    degree: "Master of Science - Computer Science (Artificial Intelligence Specialization)",
+  },
+  {
+    id: 1,
     img: "https://pbs.twimg.com/profile_images/1631667095556456449/qoKGXmDQ_400x400.png",
     school: "Purdue School of Science, IUPUI",
     date: "Aug 2020 - Dec 2023",
@@ -460,7 +469,7 @@ export const education = [
     degree: "Bachelor of Science - Computer Science",
   },
   {
-    id: 1,
+    id: 2,
     img: "https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_2/v1645090587/pikek12inus/pgerortdrilxvurkr1lb/PikeHighSchool.png",
     school: "Pike High School",
     date: "Aug 2016 - May 2020",
