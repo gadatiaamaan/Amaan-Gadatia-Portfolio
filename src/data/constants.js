@@ -522,7 +522,7 @@ export const education = [
     date: "Aug 2020 - Dec 2023",
     grade: "3.61 CGPA",
     desc: "I graduated from Purdue School of Science, IUPUI, in December 2023, with a Bachelor of Computer Science and a minor in Mathematics. Over the course of my academic journey, I achieved a Cumulative GPA of 3.6, and I consistently made it to the Dean's List for all seven semesters. During my studies, I specialized in Software/Web Development, focusing on courses that equipped me with a strong foundation in various areas. Some of the key subjects I covered include Client-Side Web Programming, Computer Architecture, Data Science/Data Mining, Data Structures, Database Systems, Operating Systems, Programming Languages, Security in Computing, Software Design, Software Project Management, and Theory of Computation. This educational experience has not only broadened my understanding of computer science but has also provided me with practical skills in software development and web programming. I am excited to leverage this knowledge as I embark on my professional journey in the field.",
-    degree: "Bachelor of Science - Computer Science",
+    degree: "Bachelor of Science - Computer Science (Minor in Mathematics)",
   },
   {
     id: 2,
