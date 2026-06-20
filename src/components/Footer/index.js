@@ -108,11 +108,10 @@ function Footer() {
         {/* Social media icons */}
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.github} target="display"><GithubIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         {/* Copyright text */}
         <Copyright>
-          &copy; 2024 Amaan Gadatia. All rights reserved.
+          &copy; 2026 Amaan Gadatia. All rights reserved.
         </Copyright>
       </FooterWrapper>
     </FooterContainer>
