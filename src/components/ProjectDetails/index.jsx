@@ -166,7 +166,7 @@ const index = ({ openModal, setOpenModal }) => {
               </Button>
             ) : (
               <div style={{ textAlign: 'center' }}>
-                <Desc>*Due to company regulations, the source code for this project is not publicly available.*</Desc>
+                <Desc>*Due to company/school regulations, the source code for this project is not publicly available.*</Desc>
               </div>
             )}
             {project?.webapp && (

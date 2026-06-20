@@ -4,15 +4,14 @@ import porfolioIMG from "../images/portfolio.png";
 export const Bio = {
   name: "Amaan Gadatia",
   roles: [
-    "Full-Stack Developer",
-    "Software Developer",
-    "Web Developer",
     "Software Engineer",
+    "Backend Engineer",
+    "Full-Stack Developer",
+    "AI / ML Engineer",
   ],
   description:
-    "As an aspiring Software Engineer, I am a motivated and adaptable individual, always on the lookout for opportunities to tackle new challenges. Fueled by a passion for continuous learning, I am committed to delivering top-notch results in the dynamic field of technology. I am actively seeking entry-level job opportunities in my field, and with a positive attitude and a growth mindset, I am poised to make a significant impact and strive for excellence in every project. Ready to embrace innovation and contribute meaningfully to the world of Software Engineering, I am excited about the journey ahead!",
-  github: "https://github.com/gadatiaamaan",
-  resume:
+    "I'm a Software Engineer with a Master's in Computer Science (AI specialization) from Georgia Tech and real experience building production systems at scale. I'm passionate about continuous learning, obsessed with AI, and always pushing myself to grow. I love diving into hard problems, exploring what's possible at the intersection of software and intelligence, and building things that make a real impact. Welcome to my corner of the internet - I'm glad you're here!",
+    resume:
     "https://drive.google.com/file/d/1hKxTOVLKqtKBdgDyVF3XiYfTilbj_hfZ/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/amaangadatia/",
 };
@@ -23,44 +22,326 @@ export const skills = [
     title: "Programming Languages",
     skills: [
       {
-        name: "C",
-        image: "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png",
+        name: "Java",
+        image: "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
+      },
+      {
+        name: "Python",
+        image: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+      },
+      {
+        name: "JavaScript",
+        image: "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg",
+      },
+      {
+        name: "TypeScript",
+        image: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+      },
+      {
+        name: "SQL",
+        image: "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png",
+      },
+      {
+        name: "Groovy",
+        image: "https://upload.wikimedia.org/wikipedia/commons/3/36/Groovy-logo.svg",
       },
       {
         name: "C++",
         image: "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
       },
       {
-        name: "CSS",
-        image: "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+        name: "C",
+        image: "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png",
+      },
+      {
+        name: "R",
+        image: "https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg",
       },
       {
         name: "HTML",
         image: "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
       },
       {
-        name: "Java",
-        image: "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
+        name: "CSS",
+        image: "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+      },
+    ],
+  },
+  {
+    title: "Backend Development",
+    skills: [
+      {
+        name: "Spring Boot",
+        image: "https://dz2cdn1.dzone.com/storage/temp/12434118-spring-boot-logo.png",
       },
       {
-        name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg",
+        name: "Spring Security",
+        image: "https://www.javacodegeeks.com/wp-content/uploads/2014/07/spring-security-project.png",
       },
       {
-        name: "Python",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+        name: "Node.js",
+        image: "https://p7.hiclipart.com/preview/306/37/167/node-js-javascript-web-application-express-js-computer-software-others.jpg",
       },
       {
-        name: "R",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg",
+        name: "Express.js",
+        image: "https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png",
       },
       {
-        name: "SQL",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png",
+        name: "Apache Kafka",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR_97qcg6FmRWNAxH52wbkexFeoyRU4E7MZi6g9mJNr1Mt-i8_ofuTR3PV&s=10",
+      },
+      {
+        name: "Microservices",
+        image: "https://cdn.worldvectorlogo.com/logos/spring-3.svg",
+      },
+      {
+        name: "RESTful APIs",
+        image: "https://www.shutterstock.com/image-vector/eps10-black-vector-cogwheel-api-600nw-2217260043.jpg",
+      },
+      {
+        name: "JSON Web Token (JWT)",
+        image: "https://cdn.worldvectorlogo.com/logos/jwt-3.svg",
+      },
+      {
+        name: "Maven",
+        image: "https://editorconfig.org/logos/maven.png",
+      },
+      {
+        name: "NumPy",
+        image: "https://images.seeklogo.com/logo-png/39/2/numpy-logo-png_seeklogo-398690.png",
+      },
+      {
+        name: "Distributed Systems",
+        image: "",
+      },
+      {
+        name: "Event-Driven Architecture",
+        image: "",
+      },
+      {
+        name: "Object-Oriented Programming (OOP)",
+        image: "",
+      },
+      {
+        name: "Software Design Patterns",
+        image: "",
+      },
+      {
+        name: "Data Structures",
+        image: "",
+      },
+    ],
+  },
+  {
+    title: "Frontend Development",
+    skills: [
+      {
+        name: "React",
+        image: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+      },
+      {
+        name: "Redux",
+        image: "https://cdn.worldvectorlogo.com/logos/redux.svg",
+      },
+      {
+        name: "Next.js",
+        image: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg",
+      },
+      {
+        name: "Tailwind CSS",
+        image: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+      },
+      {
+        name: "Bootstrap",
+        image: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg",
+      },
+      {
+        name: "Styled Components",
+        image: "https://miro.medium.com/v2/resize:fit:480/1*Iohnw2aOQ5EBghVoqKA7VA.png",
+      },
+      {
+        name: "jQuery",
+        image: "https://cdn.worldvectorlogo.com/logos/jquery-4.svg",
+      },
+      {
+        name: "Axios",
+        image: "",
+      },
+      {
+        name: "UI/UX Design",
+        image: "",
+      },
+      {
+        name: "Figma",
+        image: "https://camo.githubusercontent.com/6b658edad99e49b4e5101686be48f4a4a8bfa08129ca892ce9d68700898b918d/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f313630302f312a365867664443566e3831415958363858766432492d674032782e706e67",
+      },
+    ],
+  },
+  {
+    title: "Cloud & DevOps",
+    skills: [
+      {
+        name: "AWS",
+        image: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
+      },
+      {
+        name: "Docker",
+        image: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg",
+      },
+      {
+        name: "CI/CD",
+        image: "https://avatars.githubusercontent.com/u/44036562?s=280&v=4",
+      },
+      {
+        name: "Git",
+        image: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg",
+      },
+      {
+        name: "GitHub",
+        image: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+      },
+      {
+        name: "Netlify",
+        image: "https://cdn.iconscout.com/icon/free/png-256/free-netlify-3628945-3030170.png",
+      },
+      {
+        name: "Vercel",
+        image: "https://assets.vercel.com/image/upload/v1588805858/repositories/vercel/logo.png",
+      },
+    ],
+  },
+  {
+    title: "Databases",
+    skills: [
+      {
+        name: "MySQL",
+        image: "https://styles.redditmedia.com/t5_2qm6k/styles/communityIcon_dhjr6guc03x51.png",
+      },
+      {
+        name: "SQL Server",
+        image: "https://www.dancingnumbers.com/wp-content/uploads/2023/12/microsoft-sql-server-logo.png",
+      },
+      {
+        name: "MongoDB",
+        image: "https://images.icon-icons.com/2415/PNG/512/mongodb_original_wordmark_logo_icon_146425.png",
+      },
+      {
+        name: "NoSQL",
+        image: null,
+      },
+      {
+        name: "SQLite",
+        image: "https://upload.wikimedia.org/wikipedia/commons/3/38/SQLite370.svg",
+      },
+      {
+        name: "Data Modeling",
+        image: null,
+      },
+      {
+        name: "Data Normalization",
+        image: null,
+      },
+      {
+        name: "Entity Relationship Diagram (ERD)",
+        image: null,
+      },
+      {
+        name: "Relational Schema",
+        image: null,
+      },
+      {
+        name: "Database Management Systems (DBMS)",
+        image: null,
+      },
+    ],
+  },
+  {
+    title: "Testing & Quality Assurance",
+    skills: [
+      {
+        name: "Software Testing",
+        image: "",
+      },
+      {
+        name: "Unit Testing",
+        image: "",
+      },
+      {
+        name: "End-to-End Testing",
+        image: "",
+      },
+      {
+        name: "Espresso",
+        image: "",
+      },
+      {
+        name: "JUnit",
+        image: "https://junit.org/junit5/assets/img/junit5-logo.png",
+      },
+      {
+        name: "Postman",
+        image: "https://www.svgrepo.com/show/354202/postman-icon.svg",
+      },
+    ],
+  },
+  {
+    title: "Tools & Platforms",
+    skills: [
+      {
+        name: "IntelliJ IDEA",
+        image: "https://upload.wikimedia.org/wikipedia/commons/9/9c/IntelliJ_IDEA_Icon.svg",
+      },
+      {
+        name: "Visual Studio Code",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/960px-Visual_Studio_Code_1.35_icon.svg.png",
+      },
+      {
+        name: "Android Studio",
+        image: "https://upload.wikimedia.org/wikipedia/commons/9/95/Android_Studio_Icon_3.6.svg",
+      },
+      {
+        name: "Eclipse",
+        image: "https://avatars.githubusercontent.com/u/176413019?s=200&v=4",
+      },
+      {
+        name: "Azure Data Studio",
+        image: "https://miro.medium.com/v2/resize:fit:400/1*mjH5EY1hSbcF2ssJ7ceYNg.jpeg",
+      },
+      {
+        name: "Jira",
+        image: "https://play-lh.googleusercontent.com/CkWnE3RTo7-0V7wBKYMLEdJ9gau8c5wU2ATuqMzgFdOn9HECFbvC4Pw9kzzKjLrS1Z6h51DiijiiWy0p5yzxVQ",
+      },
+      {
+        name: "Agile / Scrum",
+        image: "",
+      },
+      {
+        name: "Technical Documentation",
+        image: "",
+      },
+      {
+        name: "Vim",
+        image: "",
+      },
+      {
+        name: "XAMPP",
+        image: "https://upload.wikimedia.org/wikipedia/commons/d/dc/XAMPP_Logo.png",
+      },
+      {
+        name: "phpMyAdmin",
+        image: "https://miro.medium.com/v2/resize:fit:1400/1*5Hnnv0awfSv0BGcq1C522w.png",
+      },
+      {
+        name: "R Studio",
+        image: "https://play-lh.googleusercontent.com/IpkkmKM1HhCHJEB9-fqJZ9_xBtJyYLLbf75WtELjDdZxzAnJLASwKAzSeW1BNDNzDown",
+      },
+      {
+        name: "PythonAnywhere",
+        image: "https://pbs.twimg.com/profile_images/1317006476/logo300x300_400x400.png",
+      },
+      {
+        name: "Repl.it",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/New_Replit_Logo.svg/1280px-New_Replit_Logo.svg.png",
       },
     ],
   },
@@ -72,271 +353,16 @@ export const skills = [
         image: "https://www.vectorlogo.zone/logos/linux/linux-icon.svg",
       },
       {
-        name: "Windows",
-        image: "https://static.javatpoint.com/computer/images/windows.png",
-      },
-      {
         name: "macOS",
         image: "https://www.vectorlogo.zone/logos/apple/apple-icon.svg",
       },
       {
+        name: "Windows",
+        image: "https://images.icon-icons.com/2235/PNG/512/windows_os_logo_icon_134674.png",
+      },
+      {
         name: "Android",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/d/d7/Android_robot.svg",
-      },
-    ],
-  },
-  {
-    title: "Databases",
-    skills: [
-      {
-        name: "MySQL",
-        image:
-          "https://styles.redditmedia.com/t5_2qm6k/styles/communityIcon_dhjr6guc03x51.png",
-      },
-      {
-        name: "MongoDB",
-        image:
-          "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/246656344_10165689418720557_4225476852778908330_n.png?_nc_cat=1&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=IB7ZsgtaXgkAX8cciQv&_nc_ht=scontent-ord5-2.xx&oh=00_AfC6zldGLP1zQ8UwgEdj08T8BwvtKdrD2Ler61J9fiICpw&oe=65CC2D5D",
-      },
-      {
-        name: "SQL Server",
-        image:
-          "https://www.dancingnumbers.com/wp-content/uploads/2023/12/microsoft-sql-server-logo.png",
-      },
-      {
-        name: "NoSQL",
-        image:
-          null,
-      },
-      {
-        name: "Data Visualization",
-        image:
-          null,
-      },
-      {
-        name: "Entity Relationship Diagram (ERD)",
-        image: null,
-      },
-      {
-        name: "Database Management Systems (DBMS)",
-        image:
-        null,
-      },
-      {
-        name: "Data Modeling",
-        image:
-        null,
-      },
-      {
-        name: "Data Normalization",
-        image:
-        null,
-      },
-      {
-        name: "Relational Schema",
-        image:
-        null,
-      },
-    ],
-  },
-  {
-    title: "Integrated Development Environments (IDEs)",
-    skills: [
-      {
-        name: "Visual Studio Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png",
-      },
-      {
-        name: "Eclipse",
-        image:
-          "https://static-00.iconduck.com/assets.00/eclipse-icon-512x479-6ivkqawb.png",
-      },
-      {
-        name: "IntelliJ IDEA",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/9/9c/IntelliJ_IDEA_Icon.svg",
-      },
-      {
-        name: "PythonAnywhere",
-        image:
-          "https://pbs.twimg.com/profile_images/1317006476/logo300x300_400x400.png",
-      },
-      {
-        name: "Repl.it",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/1200px-Repl.it_logo.svg.png",
-      },
-      {
-      name: "R Studio",
-      image:
-        "https://play-lh.googleusercontent.com/IpkkmKM1HhCHJEB9-fqJZ9_xBtJyYLLbf75WtELjDdZxzAnJLASwKAzSeW1BNDNzDown",
-      },
-      {
-        name: "Azure Data Studio",
-        image:
-          "https://miro.medium.com/v2/resize:fit:400/1*mjH5EY1hSbcF2ssJ7ceYNg.jpeg",
-      },
-    ],
-  },
-  {
-    title: "Misc Technical Tools, Libraries, and Concepts",
-    skills: [
-      {
-        name: "API",
-        image:
-          "https://www.shutterstock.com/image-vector/eps10-black-vector-cogwheel-api-600nw-2217260043.jpg",
-      },
-      {
-        name: "Bootstrap",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg",
-      },
-      {
-        name: "Express.js",
-        image:
-          "https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png",
-      },
-      {
-        name: "Figma",
-        image:
-          "https://static-00.iconduck.com/assets.00/figma-icon-2048x2048-lvgft610.png",
-      },
-      {
-        name: "Git",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg",
-      },
-      {
-        name: "Github",
-        image:
-          "https://cdn-icons-png.flaticon.com/512/25/25231.png",
-      },
-      {
-        name: "Jira",
-        image:
-          "https://static-00.iconduck.com/assets.00/jira-icon-512x512-kkop6eik.png",
-      },
-      {
-        name: "JSON Web Token (JWT)",
-        image:
-          "https://cdn.worldvectorlogo.com/logos/jwt-3.svg",
-      },
-      {
-        name: "jQuery",
-        image:
-          "https://cdn.worldvectorlogo.com/logos/jquery-4.svg",
-      },
-      {
-        name: "Maven",
-        image:
-          "https://editorconfig.org/logos/maven.png",
-      },
-      {
-        name: "Microservices",
-        image:
-          "https://cdn.worldvectorlogo.com/logos/spring-3.svg",
-      },
-      {
-        name: "Netlify",
-        image:
-          "https://cdn.iconscout.com/icon/free/png-256/free-netlify-3628945-3030170.png",
-      },
-      {
-        name: "Node.js",
-        image:
-          "https://p7.hiclipart.com/preview/306/37/167/node-js-javascript-web-application-express-js-computer-software-others.jpg",
-      },
-      {
-        name: "phpMyAdmin",
-        image:
-          "https://miro.medium.com/v2/resize:fit:1400/1*5Hnnv0awfSv0BGcq1C522w.png",
-      },
-      {
-        name: "Postman",
-        image:
-          "https://www.svgrepo.com/show/354202/postman-icon.svg",
-      },
-      {
-        name: "React",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
-      },
-      {
-        name: "Redux",
-        image:
-          "https://cdn.worldvectorlogo.com/logos/redux.svg",
-      },
-      {
-        name: "Spring Boot",
-        image:
-          "https://dz2cdn1.dzone.com/storage/temp/12434118-spring-boot-logo.png",
-      },
-      {
-        name: "Spring Security",
-        image:
-          "https://www.javacodegeeks.com/wp-content/uploads/2014/07/spring-security-project.png",
-      },
-      {
-        name:"Styled Components",
-        image:
-          "https://miro.medium.com/v2/resize:fit:480/1*Iohnw2aOQ5EBghVoqKA7VA.png",
-      },
-      {
-        name: "Tailwind CSS",
-        image:
-          "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
-      },
-      {
-        name: "XAMPP",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/d/dc/XAMPP_Logo.png",
-      },
-      {
-        name: "Axios",
-        image:
-          "",
-      },
-      {
-        name: "Cloud Computing",
-        image:
-          "",
-      },
-      {
-        name: "Data Structures",
-        image:
-          "",
-      },
-      {
-        name: "Object-Oriented Programming (OOP)",
-        image:
-          "",
-      },
-      {
-        name: "Software Design Patterns",
-        image:
-          "",
-      },
-      {
-        name: "Software Testing",
-        image:
-          "",
-      },
-      {
-        name: "Technical Documentation",
-        image:
-          "",
-      },
-      {
-        name: "UI/UX Design",
-        image:
-          "",
-      },
-      {
-        name: "Vim",
-        image:
-          "",
+        image: "https://upload.wikimedia.org/wikipedia/commons/d/d7/Android_robot.svg",
       },
     ],
   },
@@ -346,11 +372,39 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "",
-    role: "Junior Software Engineer",
-    company: "EasyTech Software Solutions",
-    date: "Sept 2023 - Feb 2024",
-    desc: "Demonstrating expertise in React.js, JavaScript, HTML, CSS, Java, SQL, and Git, I have meticulously crafted clean, efficient, and maintainable codebases. Collaborating seamlessly with senior software engineers and cross-functional teams, I've helped architect and deliver top-tier software solutions, leveraging industry best practices. In advancing both front-end and back-end development efforts, I've integrated APIs and web services to facilitate seamless system interoperability. Moreover, I've championed process efficiency, organizational excellence, regulatory compliance, and system optimization, thereby elevating operational effectiveness. Through comprehensive testing and debugging protocols, I've ensured peak functionality and performance, fortifying quality assurance standards and enhancing user satisfaction.",
+    img: "https://foxbaltimore.com/resources/media/e5e504cc-faad-41e6-a521-7751f14061ea-jumbo1x1_usaa.png?1589895679103",
+    role: "Software Engineer",
+    company: "USAA",
+    date: "May 2024 - Present",
+    desc: "Engineer and maintain mission-critical backend payment systems as part of the Payments Automation team within USAA's Source-to-Pay & Treasury organization - one of the most complex and high-stakes financial environments in the industry. Build and optimize scalable microservices and distributed systems using Java, Apache Kafka, and SQL, handling 3-5K transactions per second and supporting enterprise platforms that process billions of dollars in Life and P&C payment distributions annually. Architect and deliver robust RESTful APIs via Spring Boot, driving seamless integrations with core financial platforms including SAP and FIS. Spearhead modernization initiatives - from legacy system migrations to SAP payment engine integrations - contributing to enterprise-wide digital transformation at scale. Proactively investigate and resolve complex production issues and reconciliation discrepancies, reducing system latency by approximately 70% through standardized health metrics, runbooks, and incident management practices. Leverage AI-powered development tools to accelerate debugging and elevate code quality across high-throughput payment pipelines. Collaborate cross-functionally with engineering, treasury, procurement, and business stakeholders to translate intricate financial requirements into scalable, high-impact software - all while driving a culture of engineering ownership and delivery confidence.",
+    skills: [
+      "Java",
+      "SQL",
+      "Apache Kafka",
+      "Spring Boot",
+      "RESTful APIs",
+      "Microservices",
+      "Distributed Systems",
+      "AWS",
+      "Docker",
+      "CI/CD",
+      "SAP Integration",
+      "FIS Integration",
+      "Payment Processing",
+      "Agile",
+      "Git",
+      "TypeScript",
+      "Groovy",
+    ],
+    doc: "",
+  },
+  {
+    id: 1,
+    img: "https://media.licdn.com/dms/image/v2/C560BAQFvtxd993albg/company-logo_100_100/company-logo_100_100/0/1663517888872?e=1783555200&v=beta&t=ArXhxt_p746MwbqI2y6JvqT4OKP1dq8bVRoZmrKLgb8",
+    role: "Software Engineer & Client Specialist",
+    company: "Abraham Technologies LLC",
+    date: "Sept 2023 - Dec 2025",
+    desc: "As an early and core member of a lean startup, wore many hats to drive the company forward - spanning software engineering, client relations, and business development. Collaborated directly with clients and senior engineers to translate project requirements into clean, reliable solutions built with React.js, JavaScript, Java, and SQL. Served as a key bridge between technical and client-facing teams, ensuring seamless project handoffs and high satisfaction. Contributed to both front-end and back-end development, integrated APIs and web services, and upheld rigorous testing and debugging standards. Beyond engineering, played an active role in recruiting new clients and expanding the company's footprint - taking ownership in ways that went well beyond a traditional engineering role.",
     skills: [
       "React.js",
       "JavaScript",
@@ -363,14 +417,16 @@ export const experiences = [
       "Web Services",
       "Front-End Development",
       "Back-End Development",
+      "Client Relations",
       "Software Testing",
       "Debugging",
       "Quality Assurance",
+      "Business Development",
     ],
     doc: "",
   },
   {
-    id: 1,
+    id: 2,
     img: "https://static.vecteezy.com/system/resources/previews/020/336/451/non_2x/infosys-logo-infosys-icon-free-free-vector.jpg",
     role: "Full-Stack Developer Intern",
     company: "Infosys Limited",
@@ -404,7 +460,7 @@ export const experiences = [
     doc: "",
   },
   {
-    id: 2,
+    id: 3,
     img: "https://i.pinimg.com/736x/e6/0a/07/e60a07442ff285a78a3b95c018967d9b.jpg",
     role: "Information Technology Support Specialist",
     company: "Indiana University - University Information Technology Services",
@@ -427,7 +483,7 @@ export const experiences = [
     doc: "",
   },
   {
-    id: 3,
+    id: 4,
     img: "https://pbs.twimg.com/profile_images/1542612027142717442/q2BxTXTj_400x400.png",
     role: "Contracting Department Co-Op Intern",
     company: "Eli Lilly and Company",
@@ -456,7 +512,7 @@ export const education = [
     school: "Georgia Institute of Technology",
     date: "Aug 2024 - May 2026",
     grade: "4.0 CGPA",
-    desc: "",
+    desc: "While working full-time as a Software Engineer at USAA, I pursued a Master of Science in Computer Science with a specialization in Artificial Intelligence at Georgia Institute of Technology, graduating with a perfect 4.0 GPA. Balancing the demands of a full-time engineering career with graduate-level coursework required discipline, sacrifice, and countless late nights. Throughout the program, I prioritized delivering impact in my professional role while maintaining a commitment to academic excellence, dedicating evenings and weekends to coursework, projects, and research. My studies focused on Artificial Intelligence, Natural Language Processing, Knowledge-Based AI, Cognitive Science, AI Ethics, Cybersecurity, Data Analytics, and Software Development Processes. Earning straight A's across all coursework strengthened both my technical expertise and my ability to manage competing priorities, solve complex problems, and continuously learn while operating in a fast-paced professional environment.",
     degree: "Master of Science - Computer Science (Artificial Intelligence Specialization)",
   },
   {
@@ -465,7 +521,7 @@ export const education = [
     school: "Purdue School of Science, IUPUI",
     date: "Aug 2020 - Dec 2023",
     grade: "3.61 CGPA",
-    desc: "I graduated from Purdue School of Science, IUPUI, in December 2023, with a Bachelor of Computer Science and a minor in Mathematics. Over the course of my academic journey, I achieved a Cumulative GPA of 3.6, and I consistently made it to the Dean's List for all seven semesters. During my studies, I specialized in Software/Web Development, focusing on courses that equipped me with a strong foundation in various areas. Some of the key subjects I covered include Client-Side Web Programming, Computer Architecture, Data Science/Data Mining, Data Structures, Database Systems, Operating Systems, Programming Languages, Security in Computing, Software Design, Software Project Management, and Theory of Computation. This educational experience has not only broadened my understanding of computer science but has also provided me with practical skills in software development and web programming. I am excited to leverage this knowledge as I embark on my professional journey in the field..",
+    desc: "I graduated from Purdue School of Science, IUPUI, in December 2023, with a Bachelor of Computer Science and a minor in Mathematics. Over the course of my academic journey, I achieved a Cumulative GPA of 3.6, and I consistently made it to the Dean's List for all seven semesters. During my studies, I specialized in Software/Web Development, focusing on courses that equipped me with a strong foundation in various areas. Some of the key subjects I covered include Client-Side Web Programming, Computer Architecture, Data Science/Data Mining, Data Structures, Database Systems, Operating Systems, Programming Languages, Security in Computing, Software Design, Software Project Management, and Theory of Computation. This educational experience has not only broadened my understanding of computer science but has also provided me with practical skills in software development and web programming. I am excited to leverage this knowledge as I embark on my professional journey in the field.",
     degree: "Bachelor of Science - Computer Science",
   },
   {
@@ -482,7 +538,82 @@ export const education = [
 // Projects section data
 export const projects = [
   {
-    id: 0,
+  id: 0,
+  title: "ARC-AGI Benchmark Agent",
+  date: "2026",
+  description:
+    "Designed and built an AI agent capable of solving abstract visual reasoning problems from the ARC-AGI benchmark - a test specifically designed to measure progress toward artificial general intelligence. The agent autonomously analyzes input-output grid patterns, infers underlying transformation rules, and applies them to unseen test cases. Built a scalable library of grid transformations and a scoring pipeline that evaluates and composes rules dynamically, enabling the agent to tackle increasingly complex multi-step reasoning challenges that single operations alone cannot solve.",
+  image: "https://aix.us.com/wp-content/uploads/2026/01/ARC-AGI-1.jpg",
+  tags: [
+    "Python",
+    "NumPy",
+    "AI Agent",
+    "Artificial General Intelligence",
+    "Pattern Recognition",
+    "Algorithm Design",
+    "Knowledge-Based AI",
+    "ARC-AGI",
+    "Heuristic Search",
+    "Grid Transformations",
+  ],
+  category: "AI / Machine Learning",
+  github: "",
+  webapp: "",
+  },
+
+  {
+  id: 1,
+  title: "VisionAid STATS",
+  date: "2025",
+  description:
+    "Contributed to a multi-semester, open-source web application built for VisionAid Academy to manage training programs for visually impaired students. Led development on accessibility improvements (ARIA roles, keyboard navigation, screen reader compatibility), a dynamic analytics dashboard with enrollment trend graphs, bulk student registration, role-based access control for four user types, and a configurable dropdown system. Built with Next.js, React, MySQL, and deployed via Vercel with Google OAuth authentication.",
+  image:
+    "https://visionaid.org/wp-content/uploads/2022/02/VisionAidBanner-800x600-1.png",
+  tags: [
+    "Next.js",
+    "React.js",
+    "MySQL",
+    "JavaScript",
+    "Google OAuth",
+    "Vercel",
+    "PWA",
+    "Accessibility",
+    "ARIA",
+    "Role-Based Access Control",
+    "Full-Stack Development",
+    "Computing for Good",
+  ],
+  category: "Full-Stack Development",
+  github: "",
+  webapp: "https://visionaid-stats-ng.vercel.app",
+  },
+  {
+  id: 2,
+  title: "Job Offer Comparison App",
+  date: "2025",
+  description:
+    "Developed a single-user Android application that helps users compare multiple job offers in a structured and quantitative way. The app allows users to input current and offered job details, adjust weighted comparison settings, and generate ranked lists with side-by-side comparisons. Built using Java and Android Studio, the app features local SQLite persistence, input validation, a weighted scoring formula, and end-to-end Espresso UI tests with CI via GitHub Actions.",
+  image: "https://careeragents.org/wp-content/uploads/2025/12/ChatGPT-Image-Dec-18-2025-12_50_44-PM-1024x683.png",
+  tags: [
+    "Java",
+    "Android Studio",
+    "SQLite",
+    "Espresso",
+    "JUnit 4",
+    "JaCoCo",
+    "GitHub Actions",
+    "Android 14",
+    "Object-Oriented Design",
+    "Full-Stack Development",
+    "Mobile Development",
+    "Agile",
+  ],
+  category: "Mobile Development",
+  github: "",
+  webapp: "",
+  },
+  {
+    id: 3,
     title: "Personal Portfolio Website",
     date: "2024",
     description:
@@ -508,13 +639,13 @@ export const projects = [
     webapp: "https://amaangadatiaportfolio.netlify.app",
   },
   {
-    id: 1,
+    id: 4,
     title: "Low-Code No-Code Platform",
     date: "2023",
     description:
       "This project involved leading a collaborative effort to develop a Low-Code No-Code Platform at Infosys, aimed at simplifying web page creation for businesses. The technology stack included ReactJS for intuitive front-end design, Java Spring Boot for building a robust back-end infrastructure, and MySQL for optimized database management. The project revolutionized web page development by empowering businesses to create captivating web pages without the complexities of coding, fostering adaptable skills and problem-solving in a multidisciplinary environment.",
     image:
-      "https://www.zestminds.com/blog/wp-content/uploads/2022/02/Budibase-app-builder.jpg",
+      "https://imageio.forbes.com/specials-images/imageserve/63c6f23446892e4c35e9af4b/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
     tags: [
       "React.js",
       "Java Spring Boot",
@@ -529,7 +660,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 2,
+    id: 5,
     title: "Real-Time Chat Application",
     date: "2023",
     description:
@@ -551,13 +682,13 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 3,
+    id: 6,
     title: "Expression-Based Evaluator",
     date: "2023",
     description:
       "The Expression Evaluator Program in C++ converts infix expressions to postfix notation and evaluates them efficiently. Utilizing the Stack data structure via the Array class, it handles various operators and integers. Key design patterns include the Command Pattern for evaluating postfix expressions and the Abstract Factory Pattern for dynamic command creation. Employing the shunting-yard algorithm, it ensures proper expression conversion. Object-oriented design principles enhance modularity and maintainability, offering a robust solution for mathematical expression evaluation.",
     image:
-      "https://assets.materialup.com/uploads/32e0a889-e557-4a3f-b481-976de40f91bf/calculatorappdesign.png",
+      "https://static.vecteezy.com/system/resources/previews/075/639/289/non_2x/calculator-cartoon-with-expression-whistle-vector.jpg",
     tags: [
       "C++",
       "Data Structures",
@@ -572,7 +703,7 @@ export const projects = [
     github: "https://github.com/gadatiaamaan/Expression-Based-Evaluator.git"
   },
   {
-    id: 4,
+    id: 7,
     title: "Bank ATM System",
     date: "2023",
     description:
@@ -590,7 +721,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 5,
+    id: 8,
     title: "Spell Checker and Word Suggestion Program",
     date: "2022",
     description:
@@ -609,7 +740,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 6,
+    id: 9,
     title: "Matrix Calculator",
     date: "2022",
     description:
@@ -627,7 +758,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 7,
+    id: 10,
     title: "N-Queens Problem Solver",
     date: "2021",
     description:

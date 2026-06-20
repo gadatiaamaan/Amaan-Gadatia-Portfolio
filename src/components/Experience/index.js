@@ -80,7 +80,7 @@ const index = () => {
       <Wrapper>
         <Title>Experience</Title>
         <Desc>
-          My journey to becoming a software engineer encompasses diverse roles in prominent organizations. My experiences reflect adaptability, leadership, and a commitment to excellence.
+          I'm early in my career but hungry to grow. Every role I've taken on has pushed me to think bigger, build better, and take on more responsibility. I'm passionate about continuous learning, writing impactful code, and becoming the best engineer I can be — and I'm just getting started!
         </Desc>
         <TimelineSection>
           {/* Timeline to showcase experiences */}

@@ -13,7 +13,7 @@ const Projects = ({ openModal, setOpenModal }) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-        Check out my various development projects, spanning from front-end, to back-end, to full-stack solutions! Each project showcases offers a glimpse into my passion for technology.
+          Here's a collection of projects I've built spanning AI agents, full-stack web apps, mobile development, and more. Each one reflects my drive to solve real problems through thoughtful engineering.
         </Desc>
         {/* Toggle buttons for project categories */}
         <ToggleButtonGroup>
@@ -27,7 +27,7 @@ const Projects = ({ openModal, setOpenModal }) => {
             </ToggleButton>
           )}
           <Divider />
-          {toggle === 'Web-Development' ? (
+          {toggle === 'Front-End Development' ? (
             <ToggleButton active value="Front-End Development" onClick={() => setToggle('Front-End Development')}>
               Front-End Development
             </ToggleButton>
@@ -54,6 +54,26 @@ const Projects = ({ openModal, setOpenModal }) => {
           ) : (
             <ToggleButton value="Full-Stack Development" onClick={() => setToggle('Full-Stack Development')}>
               Full-Stack Development
+            </ToggleButton>
+          )}
+          <Divider />
+          {toggle === 'Mobile Development' ? (
+            <ToggleButton active value="Mobile Development" onClick={() => setToggle('Mobile Development')}>
+              Mobile Development
+            </ToggleButton>
+          ) : (
+            <ToggleButton value="Mobile Development" onClick={() => setToggle('Mobile Development')}>
+              Mobile Development
+            </ToggleButton>
+          )}
+          <Divider />
+          {toggle === 'AI / Machine Learning' ? (
+            <ToggleButton active value="AI / Machine Learning" onClick={() => setToggle('AI / Machine Learning')}>
+              AI / Machine Learning
+            </ToggleButton>
+          ) : (
+            <ToggleButton value="AI / Machine Learning" onClick={() => setToggle('AI / Machine Learning')}>
+              AI / Machine Learning
             </ToggleButton>
           )}
         </ToggleButtonGroup>

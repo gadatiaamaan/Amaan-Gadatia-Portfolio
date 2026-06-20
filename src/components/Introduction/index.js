@@ -1,7 +1,7 @@
 import React from 'react'
 import IntroductionBgAnimation from '../IntroductionBgAnimation'
 import { IntroductionContainer, IntroductionBg, IntroductionLeftContainer, Img, IntroductionRightContainer, IntroductionInnerContainer, TextLoop, Title, Span, SubTitle, MenuButton, MenuButtonContainer } from './IntroductionStyle'
-import IntroductionImg from '../../images/profile.jpg'
+import IntroductionImg from '../../images/profile3.jpg'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
 

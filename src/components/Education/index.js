@@ -85,7 +85,7 @@ const Education = () => {
             <Wrapper>
                 <Title>Education</Title>
                 <Desc>
-                    Navigating my educational journey has been a pathway of self-discovery and growth, driven by a passion for technology. I'm on a dedicated quest to become a Software Engineer, approaching learning with enthusiasm and adaptability.
+                    My academic journey reflects a commitment to continuous learning and excellence. From earning a Bachelor's degree in Computer Science and Mathematics to completing a Master's degree in Computer Science with a specialization in Artificial Intelligence while working full-time, each step has strengthened my technical foundation and passion for innovation.
                 </Desc>
                 <TimelineSection>
                     <Timeline>
