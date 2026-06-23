@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GithubIcon from '@mui/icons-material/GitHub';
 import { Bio } from '../../data/constants';
 
 // Container for the entire footer section

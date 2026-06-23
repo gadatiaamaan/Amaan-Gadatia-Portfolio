@@ -5,12 +5,15 @@ export const Bio = {
   name: "Amaan Gadatia",
   roles: [
     "Software Engineer",
-    "Backend Engineer",
-    "Full-Stack Developer",
-    "AI / ML Engineer",
+    "AI Enthusiast",
+    "Athlete",
+    "Traveler",
+    "Problem Solver",
+    "Lifelong Learner",
+    "Adventurer",
   ],
   description:
-    "I'm a Software Engineer with a Master's in Computer Science (AI specialization) from Georgia Tech and real experience building production systems at scale. I'm passionate about continuous learning, obsessed with AI, and always pushing myself to grow. I love diving into hard problems, exploring what's possible at the intersection of software and intelligence, and building things that make a real impact. Welcome to my corner of the internet - I'm glad you're here!",
+    "I'm a Software Engineer with a Master's in Computer Science (AI specialization) from Georgia Tech and real experience building production systems at scale. I'm passionate about continuous learning, deeply fascinated by AI, and always pushing myself to grow. I love diving into hard problems, exploring what's possible at the intersection of software and intelligence, and building things that make a real impact. Welcome to my corner of the internet - I'm glad you're here!",
     resume:
     "https://drive.google.com/file/d/1hKxTOVLKqtKBdgDyVF3XiYfTilbj_hfZ/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/amaangadatia/",
@@ -52,10 +55,6 @@ export const skills = [
       {
         name: "C",
         image: "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png",
-      },
-      {
-        name: "R",
-        image: "https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg",
       },
       {
         name: "HTML",
@@ -115,15 +114,7 @@ export const skills = [
         image: "",
       },
       {
-        name: "Event-Driven Architecture",
-        image: "",
-      },
-      {
         name: "Object-Oriented Programming (OOP)",
-        image: "",
-      },
-      {
-        name: "Software Design Patterns",
         image: "",
       },
       {
@@ -165,10 +156,6 @@ export const skills = [
       },
       {
         name: "Axios",
-        image: "",
-      },
-      {
-        name: "UI/UX Design",
         image: "",
       },
       {
@@ -237,31 +224,11 @@ export const skills = [
         name: "Data Modeling",
         image: null,
       },
-      {
-        name: "Data Normalization",
-        image: null,
-      },
-      {
-        name: "Entity Relationship Diagram (ERD)",
-        image: null,
-      },
-      {
-        name: "Relational Schema",
-        image: null,
-      },
-      {
-        name: "Database Management Systems (DBMS)",
-        image: null,
-      },
     ],
   },
   {
     title: "Testing & Quality Assurance",
     skills: [
-      {
-        name: "Software Testing",
-        image: "",
-      },
       {
         name: "Unit Testing",
         image: "",
@@ -300,10 +267,6 @@ export const skills = [
         image: "https://upload.wikimedia.org/wikipedia/commons/9/95/Android_Studio_Icon_3.6.svg",
       },
       {
-        name: "Eclipse",
-        image: "https://avatars.githubusercontent.com/u/176413019?s=200&v=4",
-      },
-      {
         name: "Azure Data Studio",
         image: "https://miro.medium.com/v2/resize:fit:400/1*mjH5EY1hSbcF2ssJ7ceYNg.jpeg",
       },
@@ -322,26 +285,6 @@ export const skills = [
       {
         name: "Vim",
         image: "",
-      },
-      {
-        name: "XAMPP",
-        image: "https://upload.wikimedia.org/wikipedia/commons/d/dc/XAMPP_Logo.png",
-      },
-      {
-        name: "phpMyAdmin",
-        image: "https://miro.medium.com/v2/resize:fit:1400/1*5Hnnv0awfSv0BGcq1C522w.png",
-      },
-      {
-        name: "R Studio",
-        image: "https://play-lh.googleusercontent.com/IpkkmKM1HhCHJEB9-fqJZ9_xBtJyYLLbf75WtELjDdZxzAnJLASwKAzSeW1BNDNzDown",
-      },
-      {
-        name: "PythonAnywhere",
-        image: "https://pbs.twimg.com/profile_images/1317006476/logo300x300_400x400.png",
-      },
-      {
-        name: "Repl.it",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/New_Replit_Logo.svg/1280px-New_Replit_Logo.svg.png",
       },
     ],
   },
@@ -521,7 +464,7 @@ export const education = [
     school: "Purdue School of Science, IUPUI",
     date: "Aug 2020 - Dec 2023",
     grade: "3.61 CGPA",
-    desc: "I graduated from Purdue School of Science, IUPUI, in December 2023, with a Bachelor of Computer Science and a minor in Mathematics. Over the course of my academic journey, I achieved a Cumulative GPA of 3.6, and I consistently made it to the Dean's List for all seven semesters. During my studies, I specialized in Software/Web Development, focusing on courses that equipped me with a strong foundation in various areas. Some of the key subjects I covered include Client-Side Web Programming, Computer Architecture, Data Science/Data Mining, Data Structures, Database Systems, Operating Systems, Programming Languages, Security in Computing, Software Design, Software Project Management, and Theory of Computation. This educational experience has not only broadened my understanding of computer science but has also provided me with practical skills in software development and web programming. I am excited to leverage this knowledge as I embark on my professional journey in the field.",
+    desc: "I graduated from Purdue School of Science, IUPUI, in December 2023, with a Bachelor of Computer Science and a minor in Mathematics. Over the course of my academic journey, I achieved a Cumulative GPA of 3.6, and I consistently made it to the Dean's List for all seven semesters. During my studies, I specialized in Software/Web Development, focusing on courses that equipped me with a strong foundation in various areas. Some of the key subjects I covered include Client-Side Web Programming, Computer Architecture, Data Science/Data Mining, Data Structures, Database Systems, Operating Systems, Programming Languages, Security in Computing, Software Design, Software Project Management, and Theory of Computation. This educational experience has not only broadened my understanding of computer science but has also provided me with practical skills in software development and web programming. This foundation set the stage for everything I've built since.",
     degree: "Bachelor of Science - Computer Science (Minor in Mathematics)",
   },
   {
@@ -713,7 +656,7 @@ export const projects = [
     tags: [
       "Java",
       "Object-Oriented Programming (OOP)",
-      "Serizalization",
+      "Serialization",
       "Hashing",
     ],
     category: "Back-End Development",
