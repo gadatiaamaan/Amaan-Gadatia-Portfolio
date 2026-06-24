@@ -2,7 +2,7 @@ import porfolioIMG from "../images/portfolio.png";
 
 // Bio information for the personal portfolio website
 export const Bio = {
-  name: "Amaan Gadatia",
+  name: "Amaan Gadatia, MS",
   roles: [
     "Software Engineer",
     "AI Enthusiast",
@@ -15,7 +15,7 @@ export const Bio = {
   description:
     "I'm a Software Engineer with a Master's in Computer Science (AI specialization) from Georgia Tech and real experience building production systems at scale. I'm passionate about continuous learning, deeply fascinated by AI, and always pushing myself to grow. I love diving into hard problems, exploring what's possible at the intersection of software and intelligence, and building things that make a real impact. Welcome to my corner of the internet - I'm glad you're here!",
     resume:
-    "https://drive.google.com/file/d/1hKxTOVLKqtKBdgDyVF3XiYfTilbj_hfZ/view?usp=sharing",
+    "https://drive.google.com/file/d/1WKk9xCrQjaxYE3XnXofilnWZZN-09lp8/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/amaangadatia/",
 };
   
@@ -346,7 +346,7 @@ export const experiences = [
     img: "https://media.licdn.com/dms/image/v2/C560BAQFvtxd993albg/company-logo_100_100/company-logo_100_100/0/1663517888872?e=1783555200&v=beta&t=ArXhxt_p746MwbqI2y6JvqT4OKP1dq8bVRoZmrKLgb8",
     role: "Software Engineer & Client Specialist",
     company: "Abraham Technologies LLC",
-    date: "Sept 2023 - Dec 2025",
+    date: "Dec 2023 - Dec 2025",
     desc: "As an early and core member of a lean startup, wore many hats to drive the company forward - spanning software engineering, client relations, and business development. Collaborated directly with clients and senior engineers to translate project requirements into clean, reliable solutions built with React.js, JavaScript, Java, and SQL. Served as a key bridge between technical and client-facing teams, ensuring seamless project handoffs and high satisfaction. Contributed to both front-end and back-end development, integrated APIs and web services, and upheld rigorous testing and debugging standards. Beyond engineering, played an active role in recruiting new clients and expanding the company's footprint - taking ownership in ways that went well beyond a traditional engineering role.",
     skills: [
       "React.js",
