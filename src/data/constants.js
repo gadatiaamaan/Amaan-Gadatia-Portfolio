@@ -15,7 +15,7 @@ export const Bio = {
   description:
     "I'm a Software Engineer with a Master's in Computer Science (AI specialization) from Georgia Tech and real experience building production systems at scale. I'm passionate about continuous learning, deeply fascinated by AI, and always pushing myself to grow. I love diving into hard problems, exploring what's possible at the intersection of software and intelligence, and building things that make a real impact. Welcome to my corner of the internet - I'm glad you're here!",
     resume:
-    "https://drive.google.com/file/d/1U4fYs8SddP4XMbyODA3YRFBBAQjDeA_a/view?usp=drive_link",
+    "https://drive.google.com/file/d/1QPB5aedQHpH3f2RKxg2EQ3bDlRSEoljK/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/amaangadatia/",
 };
   
