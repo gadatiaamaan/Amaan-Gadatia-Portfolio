@@ -78,6 +78,10 @@ export const skills = [
         image: "https://www.javacodegeeks.com/wp-content/uploads/2014/07/spring-security-project.png",
       },
       {
+        name: "Apache Kafka",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR_97qcg6FmRWNAxH52wbkexFeoyRU4E7MZi6g9mJNr1Mt-i8_ofuTR3PV&s=10",
+      },
+      {
         name: "Node.js",
         image: "https://p7.hiclipart.com/preview/306/37/167/node-js-javascript-web-application-express-js-computer-software-others.jpg",
       },
@@ -86,16 +90,12 @@ export const skills = [
         image: "https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png",
       },
       {
-        name: "Apache Kafka",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR_97qcg6FmRWNAxH52wbkexFeoyRU4E7MZi6g9mJNr1Mt-i8_ofuTR3PV&s=10",
+        name: "RESTful APIs",
+        image: "https://www.shutterstock.com/image-vector/eps10-black-vector-cogwheel-api-600nw-2217260043.jpg",
       },
       {
         name: "Microservices",
         image: "https://cdn.worldvectorlogo.com/logos/spring-3.svg",
-      },
-      {
-        name: "RESTful APIs",
-        image: "https://www.shutterstock.com/image-vector/eps10-black-vector-cogwheel-api-600nw-2217260043.jpg",
       },
       {
         name: "JSON Web Token (JWT)",
@@ -131,12 +131,12 @@ export const skills = [
         image: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
       },
       {
-        name: "Redux",
-        image: "https://cdn.worldvectorlogo.com/logos/redux.svg",
-      },
-      {
         name: "Next.js",
         image: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg",
+      },
+      {
+        name: "Redux",
+        image: "https://cdn.worldvectorlogo.com/logos/redux.svg",
       },
       {
         name: "Tailwind CSS",
@@ -180,6 +180,10 @@ export const skills = [
         image: "https://avatars.githubusercontent.com/u/44036562?s=280&v=4",
       },
       {
+        name: "GitHub Actions",
+        image: "https://avatars.githubusercontent.com/u/44036562?s=280&v=4",
+      },
+      {
         name: "Git",
         image: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg",
       },
@@ -213,12 +217,12 @@ export const skills = [
         image: "https://images.icon-icons.com/2415/PNG/512/mongodb_original_wordmark_logo_icon_146425.png",
       },
       {
-        name: "NoSQL",
-        image: null,
-      },
-      {
         name: "SQLite",
         image: "https://upload.wikimedia.org/wikipedia/commons/3/38/SQLite370.svg",
+      },
+      {
+        name: "NoSQL",
+        image: null,
       },
       {
         name: "Data Modeling",
@@ -227,8 +231,45 @@ export const skills = [
     ],
   },
   {
+    title: "AI & Productivity Tools",
+    skills: [
+      {
+        name: "AI-Assisted Development",
+        image: "",
+      },
+      {
+        name: "Prompt Engineering",
+        image: "",
+      },
+      {
+        name: "Large Language Models (LLMs)",
+        image: "",
+      },
+      {
+        name: "ChatGPT",
+        image: "https://seeklogo.com/vector-logo/465219/chatgpt",
+      },
+      {
+        name: "Claude",
+        image: "https://seeklogo.com/vector-logo/554534/claude",
+      },
+      {
+        name: "GitHub Copilot",
+        image: "https://www.dynatrace.com/hub/detail/github-copilot/",
+      },
+    ],
+  },
+  {
     title: "Testing & Quality Assurance",
     skills: [
+      {
+        name: "JUnit",
+        image: "https://junit.org/junit5/assets/img/junit5-logo.png",
+      },
+      {
+        name: "Postman",
+        image: "https://www.svgrepo.com/show/354202/postman-icon.svg",
+      },
       {
         name: "Unit Testing",
         image: "",
@@ -240,14 +281,6 @@ export const skills = [
       {
         name: "Espresso",
         image: "",
-      },
-      {
-        name: "JUnit",
-        image: "https://junit.org/junit5/assets/img/junit5-logo.png",
-      },
-      {
-        name: "Postman",
-        image: "https://www.svgrepo.com/show/354202/postman-icon.svg",
       },
     ],
   },
