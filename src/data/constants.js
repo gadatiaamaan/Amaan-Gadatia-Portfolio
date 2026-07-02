@@ -247,15 +247,15 @@ export const skills = [
       },
       {
         name: "ChatGPT",
-        image: "https://seeklogo.com/vector-logo/465219/chatgpt",
+        image: "https://images.seeklogo.com/logo-png/46/1/chatgpt-logo-png_seeklogo-465219.png",
       },
       {
         name: "Claude",
-        image: "https://seeklogo.com/vector-logo/554534/claude",
+        image: "https://images.seeklogo.com/logo-png/55/1/claude-logo-png_seeklogo-554534.png",
       },
       {
         name: "GitHub Copilot",
-        image: "https://www.dynatrace.com/hub/detail/github-copilot/",
+        image: "https://cdn.hub.central.dynatrace.com/hub/github-copilot-logo_svgstack_com_28101756451595-icon.png",
       },
     ],
   },
