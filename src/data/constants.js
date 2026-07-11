@@ -296,6 +296,10 @@ export const skills = [
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/960px-Visual_Studio_Code_1.35_icon.svg.png",
       },
       {
+        name: "Splunk",
+        image: "https://img.icons8.com/color/1200/splunk.jpg",
+      },
+      {
         name: "Android Studio",
         image: "https://upload.wikimedia.org/wikipedia/commons/9/95/Android_Studio_Icon_3.6.svg",
       },
@@ -352,7 +356,7 @@ export const experiences = [
     role: "Software Engineer",
     company: "USAA",
     date: "May 2024 - Present",
-    desc: "Engineer and maintain mission-critical payment platforms within USAA's Source-to-Pay & Treasury organization, supporting critical enterprise systems responsible for processing billions of dollars in Life and P&C insurance disbursements annually. Design and develop high-throughput microservices and event-driven distributed systems using Java, Spring Boot, Apache Kafka, and SQL, supporting 3-5K transactions per second with high availability and fault tolerance. Architect and deliver robust RESTful APIs and Kafka-based integrations seamlessly connecting SAP and other critical enterprise financial platforms, improving interoperability, transaction throughput, and data consistency across complex payment ecosystems. Lead implementation of split-disbursement capabilities, third-party payment provider integrations, and payment modernization initiatives, enabling scalable, secure, and highly flexible real-time payment processing across multiple insurance products. Diagnose and resolve complex production incidents, reconciliation failures, and performance bottlenecks, reducing system latency by ~70% through improved observability, standardized health monitoring, and proactive incident management practices. Partner with engineering, treasury, procurement, and business stakeholders to translate complex financial requirements into scalable, high-impact software solutions, while leveraging AI-assisted development tools to accelerate delivery and elevate code quality.",
+    desc: "Engineer and maintain mission-critical payment platforms within USAA's Source-to-Pay & Treasury organization, supporting critical enterprise systems responsible for processing over 58 billion dollars in Life and P&C insurance disbursements annually. Design and develop high-throughput microservices and event-driven distributed systems using Java, Spring Boot, Apache Kafka, and SQL, supporting 3-5K transactions per second with high availability and fault tolerance. Architect and deliver robust RESTful APIs and Kafka-based integrations seamlessly connecting SAP and other critical enterprise financial platforms, improving interoperability, transaction throughput, and data consistency across complex payment ecosystems. Lead implementation of split-disbursement capabilities, third-party payment provider integrations, and payment modernization initiatives, enabling scalable, secure, and highly flexible real-time payment processing across multiple insurance products. Diagnose and resolve complex production incidents, reconciliation failures, and performance bottlenecks, reducing system latency by ~70% through improved observability, standardized health monitoring, and proactive incident management practices. Partner with engineering, treasury, procurement, and business stakeholders to translate complex financial requirements into scalable, high-impact software solutions, while leveraging AI-assisted development tools to accelerate delivery and elevate code quality.",
     skills: [
       "Java",
       "SQL",
