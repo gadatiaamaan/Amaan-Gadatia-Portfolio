@@ -380,7 +380,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://media.licdn.com/dms/image/v2/C560BAQFvtxd993albg/company-logo_100_100/company-logo_100_100/0/1663517888872?e=1783555200&v=beta&t=ArXhxt_p746MwbqI2y6JvqT4OKP1dq8bVRoZmrKLgb8",
+    img: "https://media.licdn.com/dms/image/v2/C560BAQFvtxd993albg/company-logo_200_200/company-logo_200_200/0/1663517888871?e=2147483647&v=beta&t=g0AAtIoLLE2oTmeo2kXtCUqyVKOGsa9EEBcZueuCUb8",
     role: "Software Engineer & Client Specialist",
     company: "Abraham Technologies LLC",
     date: "Dec 2023 - Dec 2025",
