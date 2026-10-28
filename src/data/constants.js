@@ -488,7 +488,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://seeklogo.com/vector-logo/450404/university-of-oxford-said-business-school",
+    img: "https://images.seeklogo.com/logo-png/45/1/university-of-oxford-said-business-school-logo-png_seeklogo-450404.png",
     school: "University of Oxford, Saïd Business School",
     date: "Sep 2026 - Nov 2026",
     grade: "Completed",
