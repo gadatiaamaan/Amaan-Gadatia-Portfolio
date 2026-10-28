@@ -235,18 +235,6 @@ export const skills = [
     title: "AI & Productivity Tools",
     skills: [
       {
-        name: "AI-Assisted Development",
-        image: "",
-      },
-      {
-        name: "Prompt Engineering",
-        image: "",
-      },
-      {
-        name: "Large Language Models (LLMs)",
-        image: "",
-      },
-      {
         name: "ChatGPT",
         image: "https://images.seeklogo.com/logo-png/46/1/chatgpt-logo-png_seeklogo-465219.png",
       },
@@ -259,6 +247,10 @@ export const skills = [
         image: "https://cdn.hub.central.dynatrace.com/hub/github-copilot-logo_svgstack_com_28101756451595-icon.png",
       },
       {
+        name: "AI-Assisted Development",
+        image: "",
+      },
+      {
         name: "Enterprise AI Strategy",
         image: "",
       },
@@ -268,6 +260,14 @@ export const skills = [
       },
       {
         name: "Deep Learning",
+        image: "",
+      },
+      {
+        name: "Prompt Engineering",
+        image: "",
+      },
+      {
+        name: "Large Language Models (LLMs)",
         image: "",
       },
     ],
