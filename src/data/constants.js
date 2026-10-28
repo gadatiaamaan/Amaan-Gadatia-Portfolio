@@ -488,7 +488,16 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img:   "https://images.squarespace-cdn.com/content/v1/530175eae4b02368396cb720/1641424247213-14OM17ZJHUKL1DD6ESN0/gt_logo-02.png",
+    img: "https://seeklogo.com/vector-logo/450404/university-of-oxford-said-business-school",
+    school: "University of Oxford, Saïd Business School",
+    date: "Sep 2026 - Nov 2026",
+    grade: "Completed",
+    desc: "I completed the Oxford Artificial Intelligence Programme, an intensive 6-week executive course offered by the Saïd Business School at the University of Oxford. Building upon my technical foundation in software engineering, this program focused on the strategic deployment, ethical implications, and business applications of AI. Throughout the modules, I explored the mechanics of supervised, unsupervised, and reinforcement learning, as well as deep learning neural networks and generative AI. The curriculum culminated in evaluating AI and machine learning ecosystems to identify strategic business opportunities, equipping me with the framework to drive AI adoption and implementation at the enterprise level.",
+    degree: "Oxford Artificial Intelligence Programme",
+  },
+  {
+    id: 1,
+    img: "https://images.squarespace-cdn.com/content/v1/530175eae4b02368396cb720/1641424247213-14OM17ZJHUKL1DD6ESN0/gt_logo-02.png",
     school: "Georgia Institute of Technology",
     date: "Aug 2024 - May 2026",
     grade: "4.0 CGPA",
@@ -496,16 +505,16 @@ export const education = [
     degree: "Master of Science - Computer Science (Artificial Intelligence Specialization)",
   },
   {
-    id: 1,
+    id: 2,
     img: "https://pbs.twimg.com/profile_images/1631667095556456449/qoKGXmDQ_400x400.png",
-    school: "Purdue School of Science, IUPUI",
+    school: "Purdue University, Purdue School of Science - PUI",
     date: "Aug 2020 - Dec 2023",
     grade: "3.61 CGPA",
     desc: "I graduated from Purdue School of Science, IUPUI, in December 2023, with a Bachelor of Computer Science and a minor in Mathematics. Over the course of my academic journey, I achieved a Cumulative GPA of 3.6, and I consistently made it to the Dean's List for all seven semesters. During my studies, I specialized in Software/Web Development, focusing on courses that equipped me with a strong foundation in various areas. Some of the key subjects I covered include Client-Side Web Programming, Computer Architecture, Data Science/Data Mining, Data Structures, Database Systems, Operating Systems, Programming Languages, Security in Computing, Software Design, Software Project Management, and Theory of Computation. This educational experience has not only broadened my understanding of computer science but has also provided me with practical skills in software development and web programming. This foundation set the stage for everything I've built since.",
     degree: "Bachelor of Science - Computer Science (Minor in Mathematics)",
   },
   {
-    id: 2,
+    id: 3,
     img: "https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_2/v1645090587/pikek12inus/pgerortdrilxvurkr1lb/PikeHighSchool.png",
     school: "Pike High School",
     date: "Aug 2016 - May 2020",
