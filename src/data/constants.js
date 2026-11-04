@@ -322,7 +322,7 @@ export const skills = [
       },
       {
         name: "Jira",
-        image: "https://play-lh.googleusercontent.com/CkWnE3RTo7-0V7wBKYMLEdJ9gau8c5wU2ATuqMzgFdOn9HECFbvC4Pw9kzzKjLrS1Z6h51DiijiiWy0p5yzxVQ",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSduxNtkEqbXyqWv0k1r9ajdcs16zWouQx_521v83p8xCk_XxTxYKrnUy0&s=10",
       },
       {
         name: "Agile / Scrum",
@@ -501,21 +501,20 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://images.seeklogo.com/logo-png/45/1/university-of-oxford-said-business-school-logo-png_seeklogo-450404.png",
-    school: "University of Oxford, Saïd Business School",
-    date: "Sep 2026 - Nov 2026",
-    grade: "Completed",
-    desc: "I completed the Oxford Artificial Intelligence Programme, an intensive 6-week executive course offered by the Saïd Business School at the University of Oxford. Building upon my technical foundation in software engineering, this program focused on the strategic deployment, ethical implications, and business applications of AI. Throughout the modules, I explored the mechanics of supervised, unsupervised, and reinforcement learning, as well as deep learning neural networks and generative AI. The curriculum culminated in evaluating AI and machine learning ecosystems to identify strategic business opportunities, equipping me with the framework to drive AI adoption and implementation at the enterprise level.",
-    degree: "Oxford Artificial Intelligence Programme",
-  },
-  {
-    id: 1,
     img: "https://images.squarespace-cdn.com/content/v1/530175eae4b02368396cb720/1641424247213-14OM17ZJHUKL1DD6ESN0/gt_logo-02.png",
     school: "Georgia Institute of Technology",
     date: "Aug 2024 - May 2026",
     grade: "4.0 CGPA",
     desc: "While working full-time as a Software Engineer at USAA, I pursued a Master of Science in Computer Science with a specialization in Artificial Intelligence at Georgia Institute of Technology, graduating with a perfect 4.0 GPA. Balancing the demands of a full-time engineering career with graduate-level coursework required discipline, sacrifice, and countless late nights. Throughout the program, I prioritized delivering impact in my professional role while maintaining a commitment to academic excellence, dedicating evenings and weekends to coursework, projects, and research. My studies focused on Artificial Intelligence, Natural Language Processing, Knowledge-Based AI, Cognitive Science, AI Ethics, Cybersecurity, Data Analytics, and Software Development Processes. Earning straight A's across all coursework strengthened both my technical expertise and my ability to manage competing priorities, solve complex problems, and continuously learn while operating in a fast-paced professional environment.",
     degree: "Master of Science - Computer Science (Artificial Intelligence Specialization)",
+  },
+  {
+    id:1,
+    img: "https://images.seeklogo.com/logo-png/45/1/university-of-oxford-said-business-school-logo-png_seeklogo-450404.png",
+    school: "University of Oxford, Saïd Business School",
+    grade: "Completed",
+    desc: "I earned an executive certificate through the Oxford Artificial Intelligence Programme, an intensive course offered by the Saïd Business School at the University of Oxford. Building upon my technical foundation in software engineering, this program focused on the strategic deployment, ethical implications, and business applications of AI. Throughout the modules, I explored the mechanics of supervised, unsupervised, and reinforcement learning, as well as deep learning neural networks and generative AI. The curriculum culminated in evaluating AI and machine learning ecosystems to identify strategic business opportunities, equipping me with the framework to drive AI adoption and implementation at the enterprise level.",
+    degree: "Oxford Artificial Intelligence Programme (Certificate)",
   },
   {
     id: 2,

@@ -26,6 +26,7 @@ const Wrapper = styled.div`
   background: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%);
   width: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 100%,30% 98%, 0 100%);
+  padding-bottom: 40px; /* Adds space so the clip-path doesn't cut into your content */
 `
 
 function App() {
@@ -46,20 +47,30 @@ function App() {
         <Body>
           {/* Introduction component */}
           <Introduction />
+
           <Wrapper>
-            {/* Skills and Experience components wrapped in a styled wrapper */}
-            <Skills theme={theme} />
             <Experience />
           </Wrapper>
-          {/* Projects component with project modal functionality */}
-          <Projects openModal={openModal} setOpenModal={setOpenModal} />
+          
           <Wrapper>
-            {/* Education and Contact components wrapped in a styled wrapper */}
             <Education />
+          </Wrapper>
+
+          <Wrapper style={{ paddingBottom: "150px" }}> 
+            <Skills theme={theme} />
+          </Wrapper>
+          
+          <Wrapper>
+            <Projects openModal={openModal} setOpenModal={setOpenModal} />
+          </Wrapper>
+          
+          <Wrapper>
             <Contact />
           </Wrapper>
+          
           {/* Footer component */}
           <Footer />
+          
           {/* ProjectDetails component rendered conditionally based on openModal state */}
           {openModal.state &&
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />

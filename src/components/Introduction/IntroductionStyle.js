@@ -1,5 +1,43 @@
-// Import styled-components library
-import styled from "styled-components";
+// Import styled-components library and keyframes for animation
+import styled, { keyframes } from "styled-components";
+
+// --- ADD THESE NEW BLOCKS FOR THE STATUS PILL ---
+const pulse = keyframes`
+  0% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7); }
+  70% { box-shadow: 0 0 0 10px rgba(34, 197, 94, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+`;
+
+export const StatusPill = styled.div`
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 16px;
+  border-radius: 50px;
+  background-color: ${({ theme }) => theme.primary + '15'}; 
+  border: 1px solid ${({ theme }) => theme.primary + '30'};
+  color: ${({ theme }) => theme.text_primary};
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  width: fit-content;
+  
+  &::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #22c55e; 
+    animation: ${pulse} 2s infinite;
+  }
+
+  @media (max-width: 1284px) {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+`;
+// ------------------------------------------------
 
 // Styled component for the container of the introduction section
 export const IntroductionContainer = styled.div`

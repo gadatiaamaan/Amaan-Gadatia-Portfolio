@@ -1,6 +1,7 @@
 import React from 'react'
 import IntroductionBgAnimation from '../IntroductionBgAnimation'
-import { IntroductionContainer, IntroductionBg, IntroductionLeftContainer, Img, IntroductionRightContainer, IntroductionInnerContainer, TextLoop, Title, Span, SubTitle, MenuButton, MenuButtonContainer } from './IntroductionStyle'
+// --- ADD StatusPill TO THIS IMPORT LIST ---
+import { IntroductionContainer, IntroductionBg, IntroductionLeftContainer, Img, IntroductionRightContainer, IntroductionInnerContainer, TextLoop, Title, Span, SubTitle, MenuButton, MenuButtonContainer, StatusPill } from './IntroductionStyle'
 import IntroductionImg from '../../images/profile3.jpg'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
@@ -15,6 +16,12 @@ const Introduction = () => {
                 </IntroductionBg>
                 <IntroductionInnerContainer >
                     <IntroductionLeftContainer id="Left">
+                        
+                        {/* --- ADD THE STATUS PILL HERE --- */}
+                        <StatusPill>
+                            Available for new Software Engineering roles
+                        </StatusPill>
+                        
                         {/* Displaying the title with the name from Bio data */}
                         <Title>Hello, My Name is <br /> {Bio.name}</Title>
                         {/* Using TextLoop for dynamic rendering of roles from Bio data */}

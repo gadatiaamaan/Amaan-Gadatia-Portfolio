@@ -98,10 +98,10 @@ function Footer() {
         <Nav>
           {/* Navigation links */}
           <NavLink href="#aboutme">About Me</NavLink>
-          <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#experience">Experience</NavLink>
-          <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
+          <NavLink href="#skills">Skills</NavLink>  
+          <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#contactme">Contact Me</NavLink>
         </Nav>
         {/* Social media icons */}

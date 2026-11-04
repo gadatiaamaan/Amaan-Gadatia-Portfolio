@@ -52,10 +52,10 @@ function Navbar(props) {
         {/* Navigation items for larger screens */}
         <NavItems>
           <NavLink href="#aboutme">About Me</NavLink>
-          <NavLink href='#skills'>Skills</NavLink>
           <NavLink href='#experience'>Experience</NavLink>
-          <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#education'>Education</NavLink>
+          <NavLink href='#skills'>Skills</NavLink>
+          <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#contactme'>Contact Me</NavLink>
         </NavItems>
         {/* Light/Dark Mode button */}
@@ -72,10 +72,10 @@ function Navbar(props) {
           <MobileMenu isOpen={isOpen}>
             {/* Mobile navigation links */}
             <MobileLink href="#aboutme" onClick={() => setIsOpen(!isOpen)}>About Me</MobileLink>
-            <MobileLink href='#skills' onClick={() => setIsOpen(!isOpen)}>Skills</MobileLink>
             <MobileLink href='#experience' onClick={() => setIsOpen(!isOpen)}>Experience</MobileLink>
-            <MobileLink href='#projects' onClick={() => setIsOpen(!isOpen)}>Projects</MobileLink>
             <MobileLink href='#education' onClick={() => setIsOpen(!isOpen)}>Education</MobileLink>
+            <MobileLink href='#skills' onClick={() => setIsOpen(!isOpen)}>Skills</MobileLink>
+            <MobileLink href='#projects' onClick={() => setIsOpen(!isOpen)}>Projects</MobileLink>
             <MobileLink href='#contactme' onClick={() => setIsOpen(!isOpen)}>Contact Me</MobileLink>
             
             {/* Light/Dark Mode button for mobile */}

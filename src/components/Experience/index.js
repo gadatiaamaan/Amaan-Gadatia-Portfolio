@@ -61,10 +61,30 @@ const Desc = styled.div`
   }
 `;
 
+// --- NEW COMPONENT: Separate banner for job seeking status ---
+const AvailabilityBanner = styled.div`
+  margin-top: 24px;
+  padding: 14px 28px;
+  background-color: ${({ theme }) => theme.primary + '15'}; /* Light tint of your primary color */
+  border: 1px dashed ${({ theme }) => theme.primary};
+  border-radius: 12px;
+  color: ${({ theme }) => theme.text_primary};
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  max-width: 600px;
+  
+  @media (max-width: 768px) {
+    font-size: 15px;
+    padding: 12px 20px;
+    margin-top: 16px;
+  }
+`;
+
 const TimelineSection = styled.div`
   width: 100%;
   max-width: 1000px;
-  margin-top: 10px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -79,9 +99,17 @@ const index = () => {
       <div id="experience"></div>
       <Wrapper>
         <Title>Experience</Title>
+        
+        {/* Requirement 1: Updated Bio/Description */}
         <Desc>
-          I'm early in my career but hungry to grow. Every role I've taken on has pushed me to think bigger, build better, and take on more responsibility. I'm passionate about continuous learning, writing impactful code, and becoming the best engineer I can be — and I'm just getting started!
+          My career is driven by a passion for continuous learning and building scalable, mission-critical systems. Every role I've taken on has pushed me to think bigger, engineer better solutions, and take on more ownership. I'm dedicated to writing impactful code, expanding my expertise in enterprise tech, and becoming the best engineer I can be  — and I'm just getting started!
         </Desc>
+
+        {/* Requirement 2: Unrelated UI element stating you are seeking positions */}
+        <AvailabilityBanner>
+          🚀 I am actively seeking new Software Engineering opportunities. Let's build something great together!
+        </AvailabilityBanner>
+
         <TimelineSection>
           {/* Timeline to showcase experiences */}
           <Timeline>
@@ -104,4 +132,4 @@ const index = () => {
   );
 };
 
-export default index; 
+export default index;

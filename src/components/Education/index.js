@@ -67,7 +67,7 @@ const TimelineSection = styled.div`
     margin-top: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Change this line to align-items: center; */
+    align-items: center; 
     justify-content: center;
     gap: 12px;
     @media (max-width: 884px) {
@@ -75,7 +75,6 @@ const TimelineSection = styled.div`
         max-width: 500px;
     }
 `;
-
 
 // Functional component representing the Education section
 const Education = () => {
@@ -85,7 +84,7 @@ const Education = () => {
             <Wrapper>
                 <Title>Education</Title>
                 <Desc>
-                    My academic journey reflects a commitment to continuous learning and excellence. From earning a Bachelor's degree in Computer Science and Mathematics to completing a Master's degree in Computer Science with a specialization in Artificial Intelligence while working full-time, each step has strengthened my technical foundation and passion for innovation.
+                    My academic journey reflects a commitment to continuous learning and excellence. From earning a Bachelor's degree in Computer Science and Mathematics, to completing a Master's degree with an AI specialization while working full-time, and most recently earning an executive AI certificate from the University of Oxford, each step has strengthened my technical foundation, strategic vision, and passion for innovation.
                 </Desc>
                 <TimelineSection>
                     <Timeline>
