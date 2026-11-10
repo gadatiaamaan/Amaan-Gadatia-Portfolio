@@ -1,6 +1,5 @@
 import React from 'react'
 import IntroductionBgAnimation from '../IntroductionBgAnimation'
-// --- ADD StatusPill TO THIS IMPORT LIST ---
 import { IntroductionContainer, IntroductionBg, IntroductionLeftContainer, Img, IntroductionRightContainer, IntroductionInnerContainer, TextLoop, Title, Span, SubTitle, MenuButton, MenuButtonContainer, StatusPill } from './IntroductionStyle'
 import IntroductionImg from '../../images/profile3.jpg'
 import Typewriter from 'typewriter-effect';
@@ -17,7 +16,7 @@ const Introduction = () => {
                 <IntroductionInnerContainer >
                     <IntroductionLeftContainer id="Left">
                         
-                        {/* --- ADD THE STATUS PILL HERE --- */}
+                        {/* Status Pill indicating availability */}
                         <StatusPill>
                             Available for new Software Engineering roles
                         </StatusPill>
@@ -42,7 +41,11 @@ const Introduction = () => {
                             
                         <MenuButtonContainer>
                             {/* Creating a button to view the resume */}
-                            <MenuButton href={Bio.resume} target='display'>  View My Resume  </MenuButton>
+                            <MenuButton href={Bio.resume} target='display'>View My Resume</MenuButton>
+                            
+                            {/* NEW: Creating a button to route to LinkedIn */}
+                            <MenuButton href={Bio.linkedin} target='_blank'>Connect on LinkedIn</MenuButton>
+
                             {/* Creating a button to contact with a link to the contact section */}                                    
                             <MenuButton href='#contactme'>Contact Me Today!</MenuButton>
                         </MenuButtonContainer>
